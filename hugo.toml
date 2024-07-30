@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://curso-modelos-basados-en-agentes.github.io/'
 languageCode = 'es-MX'
 title = 'Modelado basados en agentes'
 defaultContentLanguage = 'es'
@@ -18,6 +18,6 @@ BookTheme = 'light'
 BookToC = true
 BookLogo = 'logo_texto.png'
 BookSection = '*'
-# BookRepo = 'https://github.com/Curso-Ciencia-Basica-F-Ciencias-UNAM/ciencia-basica.git'
-# BookCommitPath = 'commit'
+BookRepo = 'https://github.com/Curso-Modelos-Basados-en-Agentes/curso_MBA'
+BookCommitPath = 'commit'
 BookSearch = true
