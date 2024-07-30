@@ -2,11 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/presentacion/</loc>
+    <loc>https://curso-modelos-basados-en-agentes.github.io/curso_MBA/presentacion/</loc>
     <lastmod>2024-07-30T14:59:08-06:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://curso-modelos-basados-en-agentes.github.io/curso_MBA/</loc>
+    <lastmod>2024-07-28T20:50:49-06:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://curso-modelos-basados-en-agentes.github.io/curso_MBA/categories/</loc>
+  </url><url>
+    <loc>https://curso-modelos-basados-en-agentes.github.io/curso_MBA/tags/</loc>
   </url>
 </urlset>

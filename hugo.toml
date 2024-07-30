@@ -1,8 +1,7 @@
-baseURL = 'https://curso-modelos-basados-en-agentes.github.io/'
+baseURL = 'https://curso-modelos-basados-en-agentes.github.io/curso_MBA'
 languageCode = 'es-MX'
 title = 'Modelado basados en agentes'
 defaultContentLanguage = 'es'
-
 theme = 'hugo-book'
 
 canonifyURLs = true
@@ -18,6 +17,6 @@ BookTheme = 'light'
 BookToC = true
 BookLogo = 'logo_texto.png'
 BookSection = '*'
-BookRepo = 'https://github.com/Curso-Modelos-Basados-en-Agentes/curso_MBA'
+BookRepo = 'https://github.com/Curso-Modelos-Basados-en-Agentes/curso_MBA.git'
 BookCommitPath = 'commit'
 BookSearch = true
