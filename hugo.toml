@@ -1,0 +1,23 @@
+baseURL = 'https://example.org/'
+languageCode = 'es-MX'
+title = 'Modelado basados en agentes'
+defaultContentLanguage = 'es'
+
+theme = 'hugo-book'
+
+canonifyURLs = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+
+BookTheme = 'light'
+BookToC = true
+BookLogo = 'logo_texto.png'
+BookSection = '*'
+# BookRepo = 'https://github.com/Curso-Ciencia-Basica-F-Ciencias-UNAM/ciencia-basica.git'
+# BookCommitPath = 'commit'
+BookSearch = true
