@@ -1,4 +1,4 @@
-baseURL = 'https://curso-modelos-basados-en-agentes.github.io/'
+baseURL = 'https://curso-modelos-basados-en-agentes.github.io/curso_MBA/'
 languageCode = 'es-MX'
 title = 'Modelado basados en agentes'
 defaultContentLanguage = 'es'
