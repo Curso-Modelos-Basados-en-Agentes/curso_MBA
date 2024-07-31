@@ -8,11 +8,11 @@ draft = false
 
 ## Proyecto I: "Modelación basada en agentes de sistemas sociales, ecológicos y socio-ecológicos"
 
-La modelación basada en agentes es un paradigma de modelación que ha ganado mucha popularidad en diversas disciplinas tales como en las ciencias sociales, la ecología y la economía. La modelacion basada en agentes ha sido central en el desarrollo de las ciencias de la complejidad. Esta aproximación de modelación que se ha hecho muy accesible gracias al crecimiento de la capacidad de cómputo y al rápido y activo desarrollo de herramientas de simulación.
+La modelación basada en agentes es un paradigma de modelación que ha ganado mucha popularidad en diversas disciplinas tales como en las ciencias sociales, la ecología y la economía y ha sido central en el desarrollo de las ciencias de la complejidad. Esta aproximación de modelación que se ha hecho muy accesible gracias al crecimiento de la capacidad de cómputo y al rápido y activo desarrollo de herramientas de simulación.
 
 Dada la flexibilidad y amplia gama de aplicabilidad del modelado basado en agentes, esta es una herramienta que facilita y promueve la investigación interdisciplinaria, por lo es una herramienta muy relevante para los estudiantes de matemáticas aplicadas. Este será un curso donde además de adquirir habilidades la modelación computacional se discutirán una gran diversidad de temas en ciencias sociales, ecología y sistemas socio-ecológicos. Asimismo los estudiantes podrán desarrollar sus habilidades en programación, análisis de datos, redacción escrita e investigación a traves del desarrollo de un proyecto de un tema de su elección.
 
-## Dinámica del curso:
+## Dinámica del curso
 
 El curso constará de 4 tipos de sesiones:
 

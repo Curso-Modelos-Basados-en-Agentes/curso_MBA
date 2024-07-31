@@ -4,8 +4,6 @@ title = 'Modelado basados en agentes'
 defaultContentLanguage = 'es'
 theme = 'hugo-book'
 
-# canonifyURLs = true
-
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
