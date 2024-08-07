@@ -1,7 +1,7 @@
 +++
 title = 'Presentacion'
 date = 2024-07-30T14:59:08-06:00
-draft = false
+weight = 1
 +++
 
 # Presentación
@@ -16,12 +16,12 @@ Dada la flexibilidad y amplia gama de aplicabilidad del modelado basado en agent
 
 El curso constará de 4 tipos de sesiones:
 
-1. **Sesiones teóricas**, en las que el docente expondrá un tema (presenciales).
-2. **Sesiones prácticas**, en las que se programarán y analizarán modelos basados en agentes (en NetLogo y python) (asincrónicas). En estas sesiones se aprenderán los fundamentos de distintas herramientas para simular modelos basados en agentes. Y se repoducirán los modelos y análisis de artículos discutidos.
+1. **Sesiones teóricas**, en las que el docente expondrá un tema (asincrónicas: videos).
+2. **Sesiones prácticas**, en las que se programarán y analizarán modelos basados en agentes (en NetLogo, python y R) (asincrónicas: videos). En estas sesiones se aprenderán los fundamentos de distintas herramientas para simular modelos basados en agentes. Y se repoducirán los modelos y análisis de artículos discutidos.
 3. **Sesiones de discusión**, en las que se discutirán lecturas (artículos, capítulos de libro) (presenciales).
-4. **Sesiones de asesoría**, en las que se presentarán avances del proyecto y se dará retroalimentación y ayuda. 
+4. **Sesiones de asesoría**, en las que se presentarán avances del proyecto y se dará retroalimentación y ayuda (presenciales y virtuales).
 
-Habrá un aula virutal de moodle donde se entregarán actividades y se llevará el registro de calificaciones. Así mismo cada alumno deberá subir el su código de sus tareas y proyecto a un repositorio en linea (e.g., github, gitlab, sourcehut).
+Habrá un aula virutal de google classroom donde se entregarán actividades y se llevará el registro de calificaciones. Así mismo cada alumno deberá subir el su código de sus tareas y proyecto a un repositorio en linea (e.g., github, gitlab, sourcehut).
 
 ## Evaluación
 

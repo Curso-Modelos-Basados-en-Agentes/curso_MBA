@@ -1,34 +1,29 @@
 +++
 title = 'Teoría 0'
 date = 2024-08-07T00:24:52-06:00
-draft = false
+weight = 10
 +++
 
 # Teoría 0: Primera aproximacion a los modelos basados en agentes
 
 {{<hint info>}}
-**Contenido:** x videos  
-**Duración estimada:** x minutos
+**Contenido:** 3 videos, 1 modelo y 1 cuestionario  
+**Duración estimada:** 40 minutos
 {{</hint>}}
 
 ## Introducción
 
 En esta primera sesión teórica vamos a dar una primera explicación informal e intuitiva sobre los que son los modelos basados en agentes. Luego veremos cómo se ve un modelo basado en agenetes en acción, lo exploraremos y veremos que tipo de cosas nos pueden enseñar.
 
-## ¿Qué son los modelos basados en agentes?
+## Idea intuitiva de los modelos basados en agentes
 
-{{<youtube wBd_9hC8Pjg>}}
+{{<youtube t2aCEEznoUg>}}
 
-## Exploración inicial de un modelo basado en agentes
+## Exploración de un MBA: Modelo de evacuación
 
-### Modelo de evacuación
+### Motivación y explicación
 
-{{<youtube wBd_9hC8Pjg>}}
-
-### Cuestionario: Hipótesis
-
-Previo a explorar el modelo contesta el siguiente cuestionario para formalizar tus hipótesis.
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeyvuYbFVR0s7CVyf9ZSAzctMEC-O_zKPdG9f66osv0thr_Pg/viewform?embedded=true" width="640" height="454" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+{{<youtube XbmXWNuo89s>}}
 
 ### Exploración
 
@@ -40,8 +35,19 @@ Ahora vamos a explorar el modelo de evacuación. Puedes <a href="/curso_MBA/netl
 3. Da click en `go` para ejecutar la simulación
 {{</hint>}}
 
+{{<hint info>}} **Reflexiona**  
+Antes de explorar el modelo planteate tus hipótesis.
+
+- ¿Qué crees que pase con el tiempo de evacuación cuando aumentes el parámetro de agresividad (`xi`)? Explica por qué.
+- ¿Qué crees que pase con el tiempo de evacuación cuando pongas un obstáculo enfrente de la salida? Explica por qué.
+{{</hint>}}
+
 <iframe src="/curso_MBA/netlogo/evacuacion_AC.html" width="100%" height="600"></iframe>
 
 ### Conclusiones
 
-{{<youtube wBd_9hC8Pjg>}}
+{{<youtube 9ennmraCvwU>}}
+
+{{<hint danger>}} **Cuestionario**  
+Esta sesión teórica tiene asociado un cuestionario que está disponible en el aula virtual del curso.
+{{</hint>}}
