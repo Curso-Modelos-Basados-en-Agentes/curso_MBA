@@ -25,9 +25,22 @@ En esta primera sesión teórica vamos a dar una primera explicación informal e
 
 {{<youtube wBd_9hC8Pjg>}}
 
+### Cuestionario: Hipótesis
+
+Previo a explorar el modelo contesta el siguiente cuestionario para formalizar tus hipótesis.
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeyvuYbFVR0s7CVyf9ZSAzctMEC-O_zKPdG9f66osv0thr_Pg/viewform?embedded=true" width="640" height="454" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+
 ### Exploración
 
-<iframe src="hola.html" width="400" height="600"></iframe>
+Ahora vamos a explorar el modelo de evacuación. Puedes <a href="/curso_MBA/netlogo/evacuacion_AC.html" download>descargar el modelo desde aquí</a>  y abrirlo localmente con NetLogo o puedes explorarlo en directo en tu navegador con la aplicación web que está aquí abajo o puedes <a href="/curso_MBA/netlogo/evacuacion_AC.html">abrir la aplicación web en otra pestaña</a>.
+
+{{<hint warning>}} **Uso del modelo**  
+1. Selecciona el número de agentes que quieras simular (`NUMERO_AGENTES`) y la agresividad (`xi`).
+2. Da click en `setup` para inicializar la simulación.
+3. Da click en `go` para ejecutar la simulación
+{{</hint>}}
+
+<iframe src="/curso_MBA/netlogo/evacuacion_AC.html" width="100%" height="600"></iframe>
 
 ### Conclusiones
 

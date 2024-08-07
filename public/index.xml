@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Modelado basados en agentes</title>
-    <link>https://curso-modelos-basados-en-agentes.github.io/curso_MBA/</link>
+    <link>http://localhost:1313/curso_MBA/</link>
     <description>Recent content on Modelado basados en agentes</description>
     <generator>Hugo</generator>
     <language>es-MX</language>
     <lastBuildDate>Wed, 07 Aug 2024 00:24:52 -0600</lastBuildDate>
-    <atom:link href="https://curso-modelos-basados-en-agentes.github.io/curso_MBA/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/curso_MBA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Teoría 0</title>
-      <link>https://curso-modelos-basados-en-agentes.github.io/curso_MBA/teor%C3%ADa/teor%C3%ADa_00/</link>
+      <link>http://localhost:1313/curso_MBA/teor%C3%ADa/teor%C3%ADa_00/</link>
       <pubDate>Wed, 07 Aug 2024 00:24:52 -0600</pubDate>
-      <guid>https://curso-modelos-basados-en-agentes.github.io/curso_MBA/teor%C3%ADa/teor%C3%ADa_00/</guid>
+      <guid>http://localhost:1313/curso_MBA/teor%C3%ADa/teor%C3%ADa_00/</guid>
       <description>Teoría 0: Primera aproximacion a los modelos basados en agentes # Contenido: x videos&#xA;Duración estimada: x minutos Introducción # En esta primera sesión teórica vamos a dar una primera explicación informal e intuitiva sobre los que son los modelos basados en agentes. Luego veremos cómo se ve un modelo basado en agenetes en acción, lo exploraremos y veremos que tipo de cosas nos pueden enseñar.&#xA;¿Qué son los modelos basados en agentes?</description>
     </item>
     <item>
       <title>Presentacion</title>
-      <link>https://curso-modelos-basados-en-agentes.github.io/curso_MBA/presentacion/</link>
+      <link>http://localhost:1313/curso_MBA/presentacion/</link>
       <pubDate>Tue, 30 Jul 2024 14:59:08 -0600</pubDate>
-      <guid>https://curso-modelos-basados-en-agentes.github.io/curso_MBA/presentacion/</guid>
+      <guid>http://localhost:1313/curso_MBA/presentacion/</guid>
       <description>Presentación # Proyecto I: &amp;ldquo;Modelación basada en agentes de sistemas sociales, ecológicos y socio-ecológicos&amp;rdquo; # La modelación basada en agentes es un paradigma de modelación que ha ganado mucha popularidad en diversas disciplinas como en las ciencias sociales, la ecología y la economía y ha sido central en el desarrollo de las ciencias de la complejidad. Esta aproximación de modelación que se ha hecho muy accesible gracias al crecimiento de la capacidad de cómputo y al rápido y activo desarrollo de herramientas de simulación.</description>
     </item>
   </channel>
