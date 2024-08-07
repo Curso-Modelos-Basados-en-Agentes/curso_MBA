@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teorías on Modelado basados en agentes</title>
+    <link>https://curso-modelos-basados-en-agentes.github.io/curso_MBA/teor%C3%ADa/</link>
+    <description>Recent content in Teorías on Modelado basados en agentes</description>
+    <generator>Hugo</generator>
+    <language>es-MX</language>
+    <lastBuildDate>Wed, 07 Aug 2024 00:24:52 -0600</lastBuildDate>
+    <atom:link href="https://curso-modelos-basados-en-agentes.github.io/curso_MBA/teor%C3%ADa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Teoría 0</title>
+      <link>https://curso-modelos-basados-en-agentes.github.io/curso_MBA/teor%C3%ADa/teor%C3%ADa_00/</link>
+      <pubDate>Wed, 07 Aug 2024 00:24:52 -0600</pubDate>
+      <guid>https://curso-modelos-basados-en-agentes.github.io/curso_MBA/teor%C3%ADa/teor%C3%ADa_00/</guid>
+      <description>Teoría 0: Primera aproximacion a los modelos basados en agentes # Contenido: x videos&#xA;Duración estimada: x minutos Introducción # En esta primera sesión teórica vamos a dar una primera explicación informal e intuitiva sobre los que son los modelos basados en agentes. Luego veremos cómo se ve un modelo basado en agenetes en acción, lo exploraremos y veremos que tipo de cosas nos pueden enseñar.&#xA;¿Qué son los modelos basados en agentes?</description>
+    </item>
+  </channel>
+</rss>
