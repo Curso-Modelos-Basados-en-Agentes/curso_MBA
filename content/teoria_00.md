@@ -27,7 +27,7 @@ En esta primera sesión teórica vamos a dar una primera explicación informal e
 
 ### Exploración
 
-Ahora vamos a explorar el modelo de evacuación. Puedes <a href="/curso_MBA/netlogo/evacuacion_AC.html" download>descargar el modelo desde aquí</a> y abrirlo localmente con NetLogo o puedes explorarlo en directo en tu navegador con la aplicación web que está aquí abajo o puedes <a href="/curso_MBA/netlogo/evacuacion_AC.html">abrir la aplicación web en otra pestaña</a>. Nota que la versión web de NetLogo es mucho más lenta que la versión de escritorio por lo que te recomendamos siempre usar la versión de escritorio. Además si estás en el navegador de tu celular el modelo correrá aún más lento.
+Ahora vamos a explorar el modelo de evacuación. Puedes <a href="/curso_MBA/netlogo/evacuacion_AC.html" download>descargar el modelo desde aquí</a> y abrirlo localmente con NetLogo ([aquí puedes descargar NetLogo](https://ccl.northwestern.edu/netlogo/6.4.0/)) o puedes explorarlo en directo en tu navegador con la aplicación web que está aquí abajo o puedes <a href="/curso_MBA/netlogo/evacuacion_AC.html">abrir la aplicación web en otra pestaña</a>. Nota que la versión web de NetLogo es mucho más lenta que la versión de escritorio por lo que te recomendamos siempre usar la versión de escritorio. Además si estás en el navegador de tu celular el modelo correrá aún más lento.
 
 {{<hint warning>}} **Uso del modelo**  
 1. Selecciona el número de agentes que quieras simular (`NUMERO_AGENTES`) y la agresividad (`xi`).
