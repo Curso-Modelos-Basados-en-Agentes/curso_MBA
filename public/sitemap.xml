@@ -2,23 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:34241/curso_MBA/presentacion/</loc>
+    <loc>https://curso-modelos-basados-en-agentes.github.io/curso_MBA/presentacion/</loc>
     <lastmod>2024-07-30T14:59:08-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:34241/curso_MBA/teoria_00/</loc>
+    <loc>https://curso-modelos-basados-en-agentes.github.io/curso_MBA/teoria_00/</loc>
     <lastmod>2024-08-07T00:24:52-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:34241/curso_MBA/practica_00/</loc>
-    <lastmod>2024-08-08T13:17:17-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:34241/curso_MBA/actividad_00/</loc>
+    <loc>https://curso-modelos-basados-en-agentes.github.io/curso_MBA/actividad_00/</loc>
     <lastmod>2024-08-09T11:58:47-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:34241/curso_MBA/</loc>
+    <loc>https://curso-modelos-basados-en-agentes.github.io/curso_MBA/</loc>
     <lastmod>2024-07-28T20:50:49-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:34241/curso_MBA/categories/</loc>
+    <loc>https://curso-modelos-basados-en-agentes.github.io/curso_MBA/categories/</loc>
   </url><url>
-    <loc>http://localhost:34241/curso_MBA/tags/</loc>
+    <loc>https://curso-modelos-basados-en-agentes.github.io/curso_MBA/tags/</loc>
   </url>
 </urlset>

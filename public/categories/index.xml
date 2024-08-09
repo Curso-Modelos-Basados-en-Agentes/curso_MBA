@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Modelado basados en agentes</title>
-    <link>http://localhost:34241/curso_MBA/categories/</link>
+    <link>https://curso-modelos-basados-en-agentes.github.io/curso_MBA/categories/</link>
     <description>Recent content in Categories on Modelado basados en agentes</description>
     <generator>Hugo</generator>
     <language>es-MX</language>
-    <atom:link href="http://localhost:34241/curso_MBA/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://curso-modelos-basados-en-agentes.github.io/curso_MBA/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

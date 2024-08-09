@@ -10,7 +10,7 @@ date = 2024-08-09T11:58:47-06:00
 **Forma de entrega:** repositorio de github
 {{</hint>}}
 
-Esta actividad está asociada a la [Práctica 0]({{<relref "./practica_00.md">}}).
+Esta actividad está asociada a la Práctica 0.
 
 ## Parte 1: Escribe tu nombre
 
