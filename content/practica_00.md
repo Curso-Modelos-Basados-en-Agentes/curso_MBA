@@ -1,7 +1,6 @@
 +++
 title = 'Práctica 0'
 date = 2024-08-08T13:17:17-06:00
-draft = true
 weight = 11
 +++
 

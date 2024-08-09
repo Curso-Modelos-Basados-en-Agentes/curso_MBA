@@ -1,6 +1,7 @@
 +++
 title = 'Actividad 0'
 date = 2024-08-09T11:58:47-06:00
+weight = 12
 +++
 
 # Actividad 0

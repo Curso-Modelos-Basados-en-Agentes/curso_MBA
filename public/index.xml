@@ -2,31 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Modelado basados en agentes</title>
-    <link>https://curso-modelos-basados-en-agentes.github.io/curso_MBA/</link>
+    <link>http://localhost:1313/curso_MBA/</link>
     <description>Recent content on Modelado basados en agentes</description>
     <generator>Hugo</generator>
     <language>es-MX</language>
     <lastBuildDate>Fri, 09 Aug 2024 11:58:47 -0600</lastBuildDate>
-    <atom:link href="https://curso-modelos-basados-en-agentes.github.io/curso_MBA/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/curso_MBA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Presentacion</title>
-      <link>https://curso-modelos-basados-en-agentes.github.io/curso_MBA/presentacion/</link>
+      <link>http://localhost:1313/curso_MBA/presentacion/</link>
       <pubDate>Tue, 30 Jul 2024 14:59:08 -0600</pubDate>
-      <guid>https://curso-modelos-basados-en-agentes.github.io/curso_MBA/presentacion/</guid>
+      <guid>http://localhost:1313/curso_MBA/presentacion/</guid>
       <description>Presentación # Proyecto I: &amp;ldquo;Modelación basada en agentes de sistemas sociales, ecológicos y socio-ecológicos&amp;rdquo; # La modelación basada en agentes es un paradigma de modelación que ha ganado mucha popularidad en diversas disciplinas como en las ciencias sociales, la ecología y la economía y ha sido central en el desarrollo de las ciencias de la complejidad. Esta aproximación de modelación que se ha hecho muy accesible gracias al crecimiento de la capacidad de cómputo y al rápido y activo desarrollo de herramientas de simulación.</description>
     </item>
     <item>
       <title>Teoría 0</title>
-      <link>https://curso-modelos-basados-en-agentes.github.io/curso_MBA/teoria_00/</link>
+      <link>http://localhost:1313/curso_MBA/teoria_00/</link>
       <pubDate>Wed, 07 Aug 2024 00:24:52 -0600</pubDate>
-      <guid>https://curso-modelos-basados-en-agentes.github.io/curso_MBA/teoria_00/</guid>
+      <guid>http://localhost:1313/curso_MBA/teoria_00/</guid>
       <description>Teoría 0: Primera aproximacion a los modelos basados en agentes # Contenido: 3 videos, 1 modelo y 1 cuestionario&#xA;Duración estimada: 40 minutos Introducción # En esta primera sesión teórica vamos a dar una primera explicación informal e intuitiva sobre los que son los modelos basados en agentes. Luego veremos cómo se ve un modelo basado en agenetes en acción, lo exploraremos y veremos que tipo de cosas nos pueden enseñar.</description>
     </item>
     <item>
+      <title>Práctica 0</title>
+      <link>http://localhost:1313/curso_MBA/practica_00/</link>
+      <pubDate>Thu, 08 Aug 2024 13:17:17 -0600</pubDate>
+      <guid>http://localhost:1313/curso_MBA/practica_00/</guid>
+      <description>Práctica 0: Introducción a NetLogo, git y github # Contenido: 9 videos&#xA;Duración estimada: 1 hora 20 minutos Introducción # En este curso vamos a estar usando NetLogo. NetLogo es una plataforma para hacer simulaciones computacionales que utiliza un lenguaje de programación muy sencillo que permite hacer modelos muy complejos de forma rápida. Así mismo, cuando uno crea un modelo con NetLogo también crea directamente una visualización. Esto permitie explorar de forma interactiva los distintos fenómenos de interés.</description>
+    </item>
+    <item>
       <title>Actividad 0</title>
-      <link>https://curso-modelos-basados-en-agentes.github.io/curso_MBA/actividad_00/</link>
+      <link>http://localhost:1313/curso_MBA/actividad_00/</link>
       <pubDate>Fri, 09 Aug 2024 11:58:47 -0600</pubDate>
-      <guid>https://curso-modelos-basados-en-agentes.github.io/curso_MBA/actividad_00/</guid>
+      <guid>http://localhost:1313/curso_MBA/actividad_00/</guid>
       <description>Actividad 0 # Fecha de entrega: 16/08/2024&#xA;Forma de entrega: repositorio de github Esta actividad está asociada a la Práctica 0.&#xA;Parte 1: Escribe tu nombre # En la primera parte de la actividad debes hacer un modelo de NetLogo con un botón que escriba tu nombre en el mundo.&#xA;Abre un proyecto nuevo de NetLogo. En la pestaña de interfaz crea un botón &amp;ldquo;setup&amp;rdquo; En la pestaña de código agrega el siguiente procedimiento para tu botón setup (este código crea una tortuga creca de la esquina superior izquierda lista para dibujar cuando se mueva): to setup clear-all create-turtles 1 [ setxy -10 10 ;; &amp;lt;-- aquí puedes ajustar la posición inicial de la tortuga set heading 180 ;; &amp;lt;-- esto orienta a la tortuga para que mire hacia abajo pen-down ] end Introduciendo comandos en el Centro de comando (&amp;ldquo;Command center&amp;rdquo; en la pestaña de interfaz) haz que la tortuga se mueva de tal forma que escribas tu nombre.</description>
     </item>
   </channel>
