@@ -6,9 +6,9 @@ draft = false
 
 # Inicio
 
-Bienvenid@ a la página del curso *Proyecto I: Modelado basado en agentes de sistemas sociales ecológicos y socio-ecológicos (MBASSESE)*. 
+Bienvenid@ a la página del curso *Proyecto I: Modelado basado en agentes de sistemas sociales ecológicos y socio-ecológicos (MBASSESE)* que se da en la [Facultad de Ciencias de la UNAM](https://www.fciencias.unam.mx/).
 
-En esta página encontrarás el contenido teórico y práctico del curso.
+En esta página encontrarás el contenido teórico, práctico y actividades del curso.
 
 <script type="module">
 	import * as util from 'https://code.agentscript.org/src/utils.js'
