@@ -1,7 +1,6 @@
 +++
 title = 'Teoria 1'
 date = 2024-08-14T10:08:30-06:00
-draft = true
 weight = 20
 +++
 
