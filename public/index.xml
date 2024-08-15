@@ -6,7 +6,7 @@
     <description>Recent content on Modelado basados en agentes</description>
     <generator>Hugo</generator>
     <language>es-MX</language>
-    <lastBuildDate>Fri, 09 Aug 2024 11:58:47 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 14 Aug 2024 10:08:30 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/curso_MBA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Presentacion</title>
@@ -35,6 +35,13 @@
       <pubDate>Fri, 09 Aug 2024 11:58:47 -0600</pubDate>
       <guid>http://localhost:1313/curso_MBA/actividad_00/</guid>
       <description>Actividad 0 # Fecha de entrega: 16/08/2024&#xA;Forma de entrega: repositorio de github Esta actividad está asociada a la Práctica 0.&#xA;Parte 1: Escribe tu nombre # En la primera parte de la actividad debes hacer un modelo de NetLogo con un botón que escriba tu nombre en el mundo.&#xA;Abre un proyecto nuevo de NetLogo. En la pestaña de interfaz crea un botón &amp;ldquo;setup&amp;rdquo; En la pestaña de código agrega el siguiente procedimiento para tu botón setup (este código crea una tortuga creca de la esquina superior izquierda lista para dibujar cuando se mueva): to setup clear-all create-turtles 1 [ setxy -10 10 ;; &amp;lt;-- aquí puedes ajustar la posición inicial de la tortuga set heading 180 ;; &amp;lt;-- esto orienta a la tortuga para que mire hacia abajo pen-down ] end Introduciendo comandos en el Centro de comando (&amp;ldquo;Command center&amp;rdquo; en la pestaña de interfaz) haz que la tortuga se mueva de tal forma que escribas tu nombre.</description>
+    </item>
+    <item>
+      <title>Teoria 1</title>
+      <link>http://localhost:1313/curso_MBA/teoria_01/</link>
+      <pubDate>Wed, 14 Aug 2024 10:08:30 -0600</pubDate>
+      <guid>http://localhost:1313/curso_MBA/teoria_01/</guid>
+      <description>Teoría 1: Introducción a los sistemas complejos # Contenido: 6 videos, 2 modelos y 1 cuestionario&#xA;Duración estimada: 55 minutos Introducción # Los modelos basados en agentes son una herramienta que se enmarca dentro de los sistemas complejos. En esta sesión teórica vamos a discutir brevemente los orígenes de la pespectiva de las ciencias de la complejidad, explorar qué es un sistema complejo, repasar algunos conceptos relacionados a este tipo de sistemas y ver algunas de las propuestas de cómo se puede medir la complejidad.</description>
     </item>
   </channel>
 </rss>
