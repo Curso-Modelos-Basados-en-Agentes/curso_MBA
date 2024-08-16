@@ -73,5 +73,5 @@ Aquí puedes explorar el modelo del mapa logístico que se discute en el video. 
 {{<youtube q-4uObxRyJw>}}
 
 {{<hint warning>}} **Cuestionario**  
-Esta sesión teórica tiene asociado un cuestionario que todavía no está disponible en el aula virtual del curso :(
+Esta sesión teórica tiene asociado un cuestionario está disponible en el aula virtual del curso.
 {{</hint>}}
