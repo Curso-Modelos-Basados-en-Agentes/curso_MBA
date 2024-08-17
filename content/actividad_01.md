@@ -4,7 +4,7 @@ date = 2024-08-16T20:05:25-06:00
 weight = 22
 +++
 
-# Actividad 0
+# Actividad 1
 
 {{<hint info>}}
 **Fecha de entrega:** 24/08/2024  
