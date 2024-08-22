@@ -6,7 +6,7 @@
     <description>Recent content on Modelado basados en agentes</description>
     <generator>Hugo</generator>
     <language>es-MX</language>
-    <lastBuildDate>Fri, 16 Aug 2024 20:05:25 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 22 Aug 2024 11:03:12 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/curso_MBA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Presentacion</title>
@@ -55,7 +55,14 @@
       <link>http://localhost:1313/curso_MBA/actividad_01/</link>
       <pubDate>Fri, 16 Aug 2024 20:05:25 -0600</pubDate>
       <guid>http://localhost:1313/curso_MBA/actividad_01/</guid>
-      <description>Actividad 0 # Fecha de entrega: 24/08/2024&#xA;Forma de entrega: repositorio de github Esta actividad está asociada a la Práctica 1.&#xA;Parte 1: Segregación de más de 2 grupos # En la Práctica 1 exploramos un modelo de segregación donde sólo hay 2 grupos. ¿Qué pasa cuando hay más de 2 grupos?&#xA;Crea una copia de tu script del modelo de la práctica que se llame segregacion_multiples_grupos.nlogo. Modifica el código del modelo para que tengas más de 3 (o más grupos si quieres).</description>
+      <description>Actividad 1 # Fecha de entrega: 24/08/2024&#xA;Forma de entrega: repositorio de github Esta actividad está asociada a la Práctica 1.&#xA;Parte 1: Segregación de más de 2 grupos # En la Práctica 1 exploramos un modelo de segregación donde sólo hay 2 grupos. ¿Qué pasa cuando hay más de 2 grupos?&#xA;Crea una copia de tu script del modelo de la práctica que se llame segregacion_multiples_grupos.nlogo. Modifica el código del modelo para que tengas más de 3 (o más grupos si quieres).</description>
+    </item>
+    <item>
+      <title>Teoría 2</title>
+      <link>http://localhost:1313/curso_MBA/teoria_02/</link>
+      <pubDate>Thu, 22 Aug 2024 11:03:12 -0600</pubDate>
+      <guid>http://localhost:1313/curso_MBA/teoria_02/</guid>
+      <description>Teoría 2: ¿Qué es la modelación basada en agentes? # Contenido: 6 videos, 1 modelo y 1 tarea&#xA;Duración estimada: 55 minutos Introducción # En esta sesión vamos a ver con más detalle qué es la modelación basada en agentes. Para ello primero discutimos qué es un modelo, luego vemos algunas características de los modelos basados en agentes y discutimos cómo esta aproximación de modelación difiere de otras. Asi mismo mencionamos algunas de las herramientas que existen para construir modelos basados en agentes, discutimos cuál es el papel de la simulación en la construcción de la ciencia y finalmente hablamos de algunos de los múltiples orígenes de la modelación basada en agentes.</description>
     </item>
   </channel>
 </rss>
