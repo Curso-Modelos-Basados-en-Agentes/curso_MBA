@@ -6,10 +6,10 @@
     <description>Recent content on Modelado basados en agentes</description>
     <generator>Hugo</generator>
     <language>es-MX</language>
-    <lastBuildDate>Thu, 22 Aug 2024 11:03:12 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 24 Aug 2024 11:08:18 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/curso_MBA/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Presentacion</title>
+      <title>Presentación</title>
       <link>http://localhost:1313/curso_MBA/presentacion/</link>
       <pubDate>Tue, 30 Jul 2024 14:59:08 -0600</pubDate>
       <guid>http://localhost:1313/curso_MBA/presentacion/</guid>
@@ -63,6 +63,13 @@
       <pubDate>Thu, 22 Aug 2024 11:03:12 -0600</pubDate>
       <guid>http://localhost:1313/curso_MBA/teoria_02/</guid>
       <description>Teoría 2: ¿Qué es la modelación basada en agentes? # Contenido: 6 videos, 1 modelo y 1 tarea&#xA;Duración estimada: 55 minutos Introducción # En esta sesión vamos a ver con más detalle qué es la modelación basada en agentes. Para ello primero discutimos qué es un modelo, luego vemos algunas características de los modelos basados en agentes y discutimos cómo esta aproximación de modelación difiere de otras. Asi mismo mencionamos algunas de las herramientas que existen para construir modelos basados en agentes, discutimos cuál es el papel de la simulación en la construcción de la ciencia y finalmente hablamos de algunos de los múltiples orígenes de la modelación basada en agentes.</description>
+    </item>
+    <item>
+      <title>Práctica 2</title>
+      <link>http://localhost:1313/curso_MBA/practica_02/</link>
+      <pubDate>Sat, 24 Aug 2024 11:08:18 -0600</pubDate>
+      <guid>http://localhost:1313/curso_MBA/practica_02/</guid>
+      <description>Práctica 2: Sincronización de luciérnagas # Contenido: 6 videos&#xA;Duración estimada: 40 minutos Introducción # En esta práctica vamos a construir un modelo de sincronización de las luciérnagas. Este es un claro ejemplo de autoorganización, es decir, de cómo a partir de interacciones locales entre agentes puede surgir un patrón global, que en este caso es la sincronización.&#xA;Motivación # Para saber más&#xA;Aquí puedes ver el video completo de &amp;ldquo;The Trials of Life - Talking to Strangers&amp;rdquo; donde se ven las imágenes de sincronización de luciérnagas.</description>
     </item>
   </channel>
 </rss>
