@@ -6,7 +6,7 @@
     <description>Recent content on Modelado basados en agentes</description>
     <generator>Hugo</generator>
     <language>es-MX</language>
-    <lastBuildDate>Sat, 24 Aug 2024 11:08:18 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2024 10:31:58 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/curso_MBA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Presentación</title>
@@ -70,6 +70,20 @@
       <pubDate>Sat, 24 Aug 2024 11:08:18 -0600</pubDate>
       <guid>http://localhost:1313/curso_MBA/practica_02/</guid>
       <description>Práctica 2: Sincronización de luciérnagas # Contenido: 6 videos&#xA;Duración estimada: 40 minutos Introducción # En esta práctica vamos a construir un modelo de sincronización de las luciérnagas. Este es un claro ejemplo de autoorganización, es decir, de cómo a partir de interacciones locales entre agentes puede surgir un patrón global, que en este caso es la sincronización.&#xA;Motivación # Para saber más&#xA;Aquí puedes ver el video completo de &amp;ldquo;The Trials of Life - Talking to Strangers&amp;rdquo; donde se ven las imágenes de sincronización de luciérnagas.</description>
+    </item>
+    <item>
+      <title>Actividad 2</title>
+      <link>http://localhost:1313/curso_MBA/actividad_02/</link>
+      <pubDate>Sat, 24 Aug 2024 12:00:34 -0600</pubDate>
+      <guid>http://localhost:1313/curso_MBA/actividad_02/</guid>
+      <description>Actividad 2 # Fecha de entrega: 31/08/2024&#xA;Forma de entrega: repositorio de github No se me ocurrió que poner de actividad para esta práctica :&amp;rsquo;( Así que como evidencia para esta actividad sólo debes subir tu código que hicieste de Práctica 2 a tu repositorio de github. Prometo para las siguientes prácticas hacer actividades más interesantes :(&#xA;Entrega # En tu repositorio crea una carpeta que se llame actividad_02. Ensta carpeta debe incluir:</description>
+    </item>
+    <item>
+      <title>Teoría 3</title>
+      <link>http://localhost:1313/curso_MBA/teoria_03/</link>
+      <pubDate>Thu, 29 Aug 2024 10:31:58 -0600</pubDate>
+      <guid>http://localhost:1313/curso_MBA/teoria_03/</guid>
+      <description>Teoría 3: Autómatas celulares # Contenido: 4 videos y 1 cuestionario&#xA;Duración estimada: 35 minutos Introducción # En esta sesión vamos a ver qué son los autómatas celulares. Este es un tipo de modelos muy simples y que están muy relacionados a la modelación basada en agentes, además de presentar muchas de las propiedades de los sistemas complejos.&#xA;¿Qué son los autómatas celulares? # El juego de la vida # Autómata celular elemental # Autómatas, sistemas complejos y cómputo # Cuestionario</description>
     </item>
   </channel>
 </rss>
