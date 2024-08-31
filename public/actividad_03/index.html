@@ -3,27 +3,25 @@
 <head><script src="/curso_MBA/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=curso_MBA/livereload" data-no-instant defer></script>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Actividad 1 # Fecha de entrega: 24/08/2024
-Forma de entrega: repositorio de github Esta actividad está asociada a la Práctica 1.
-Parte 1: Segregación de más de 2 grupos # En la Práctica 1 exploramos un modelo de segregación donde sólo hay 2 grupos. ¿Qué pasa cuando hay más de 2 grupos?
-Crea una copia de tu script del modelo de la práctica que se llame segregacion_multiples_grupos.nlogo. Modifica el código del modelo para que tengas más de 3 (o más grupos si quieres).">
+<meta name="description" content="Actividad 1 # Fecha de entrega: 14/09/2024
+Forma de entrega: repositorio de github Esta actividad está asociada a la Práctica 3.
+Parte 1: Otros autómatas celulares # Además del juego de la vida y del autómata celular elemental existen muchas otras relgas de autómatas celulares. Algunas reglas son pequeñas variaciones del juego de la vida, otras son reglas totalmente distintas y otros autómatas permiten más de 2 estados por celda.">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
-<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/curso_MBA/actividad_01/">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/curso_MBA/actividad_03/">
   <meta property="og:site_name" content="Modelado basados en agentes">
-  <meta property="og:title" content="Actividad 1">
-  <meta property="og:description" content="Actividad 1 # Fecha de entrega: 24/08/2024
-Forma de entrega: repositorio de github Esta actividad está asociada a la Práctica 1.
-Parte 1: Segregación de más de 2 grupos # En la Práctica 1 exploramos un modelo de segregación donde sólo hay 2 grupos. ¿Qué pasa cuando hay más de 2 grupos?
-Crea una copia de tu script del modelo de la práctica que se llame segregacion_multiples_grupos.nlogo. Modifica el código del modelo para que tengas más de 3 (o más grupos si quieres).">
+  <meta property="og:title" content="Actividad 3">
+  <meta property="og:description" content="Actividad 1 # Fecha de entrega: 14/09/2024
+Forma de entrega: repositorio de github Esta actividad está asociada a la Práctica 3.
+Parte 1: Otros autómatas celulares # Además del juego de la vida y del autómata celular elemental existen muchas otras relgas de autómatas celulares. Algunas reglas son pequeñas variaciones del juego de la vida, otras son reglas totalmente distintas y otros autómatas permiten más de 2 estados por celda.">
   <meta property="og:locale" content="es_MX">
   <meta property="og:type" content="article">
-    <meta property="article:published_time" content="2024-08-16T20:05:25-06:00">
-    <meta property="article:modified_time" content="2024-08-16T20:05:25-06:00">
-<title>Actividad 1 | Modelado basados en agentes</title>
+    <meta property="article:published_time" content="2024-08-31T12:20:54-06:00">
+    <meta property="article:modified_time" content="2024-08-31T12:20:54-06:00">
+<title>Actividad 3 | Modelado basados en agentes</title>
 <link rel="manifest" href="/curso_MBA/manifest.json">
 <link rel="icon" href="/curso_MBA/favicon.png" >
-<link rel="canonical" href="http://localhost:1313/curso_MBA/actividad_01/">
+<link rel="canonical" href="http://localhost:1313/curso_MBA/actividad_03/">
 <link rel="stylesheet" href="/curso_MBA/book.min.ebcab724e7da78bb73db3c3cc703ce9650dcf1c3e653e7a124f0fe37cecf44a6.css" integrity="sha256-68q3JOfaeLtz2zw8xwPOllDc8cPmU&#43;ehJPD&#43;N87PRKY=" crossorigin="anonymous">
   <script defer src="/curso_MBA/fuse.min.js"></script>
   <script defer src="/curso_MBA/es.search.min.5fb1fcb0b42f824a643ff8087d053418122b2a8b922eb23bba72bbe0e9433214.js" integrity="sha256-X7H8sLQvgkpkP/gIfQU0GBIrKouSLrI7unK74OlDMhQ=" crossorigin="anonymous"></script>
@@ -162,7 +160,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/curso_MBA/actividad_01/" class="active">Actividad 1</a>
+    <a href="/curso_MBA/actividad_01/" class="">Actividad 1</a>
   
 
         </li>
@@ -240,7 +238,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/curso_MBA/actividad_03/" class="">Actividad 3</a>
+    <a href="/curso_MBA/actividad_03/" class="active">Actividad 3</a>
   
 
         </li>
@@ -282,7 +280,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/curso_MBA/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Actividad 1</strong>
+  <strong>Actividad 3</strong>
 
   <label for="toc-control">
     
@@ -298,8 +296,8 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#parte-1-segregación-de-más-de-2-grupos">Parte 1: Segregación de más de 2 grupos</a></li>
-    <li><a href="#parte-2-grupos-con-diferentes-preferencias">Parte 2: Grupos con diferentes preferencias</a></li>
+    <li><a href="#parte-1-otros-autómatas-celulares">Parte 1: Otros autómatas celulares</a></li>
+    <li><a href="#parte-2-falling-sand-simulator">Parte 2: Falling sand simulator</a></li>
     <li><a href="#entrega">Entrega</a></li>
   </ul>
 </nav>
@@ -318,43 +316,38 @@ https://github.com/alex-shpak/hugo-book
   <a class="anchor" href="#actividad-1">#</a>
 </h1>
 <blockquote class="book-hint info">
-  <strong>Fecha de entrega:</strong> 24/08/2024<br>
+  <strong>Fecha de entrega:</strong> 14/09/2024<br>
 <strong>Forma de entrega:</strong> repositorio de github
 </blockquote>
 
-<p>Esta actividad está asociada a la Práctica 1.</p>
-<h2 id="parte-1-segregación-de-más-de-2-grupos">
-  Parte 1: Segregación de más de 2 grupos
-  <a class="anchor" href="#parte-1-segregaci%c3%b3n-de-m%c3%a1s-de-2-grupos">#</a>
+<p>Esta actividad está asociada a la Práctica 3.</p>
+<h2 id="parte-1-otros-autómatas-celulares">
+  Parte 1: Otros autómatas celulares
+  <a class="anchor" href="#parte-1-otros-aut%c3%b3matas-celulares">#</a>
 </h2>
-<p>En la Práctica 1 exploramos un modelo de segregación donde sólo hay 2 grupos. ¿Qué pasa cuando hay más de 2 grupos?</p>
-<ol>
-<li>Crea una copia de tu script del modelo de la práctica que se llame <code>segregacion_multiples_grupos.nlogo</code>.</li>
-<li>Modifica el código del modelo para que tengas más de 3 (o más grupos si quieres).</li>
-<li>Opcional: has que un usuario del modelo pueda seleccionar desde la interfaz el número de grupos que quiera. Es decir, agrega un slider con el que uno pueda seleccionar el número de grupos que se crean en el modelo y modifica el código para que este funcione.</li>
-</ol>
-<blockquote class="book-hint info">
-  <strong>Tip</strong><br>
-Para ayudarte puedes consultar la <a href="https://ccl.northwestern.edu/netlogo/docs/dictionary.html">documentación oficial de NetLogo</a>. También puedes pedirle ayuda a chatgpt, aunque nota que no es tan chido con NetLogo como lo es con otros lenguajes de programación (ya que NetLogo no es muy popular no tiene mucho con qué aprender).
-</blockquote>
-
-<h2 id="parte-2-grupos-con-diferentes-preferencias">
-  Parte 2: Grupos con diferentes preferencias
-  <a class="anchor" href="#parte-2-grupos-con-diferentes-preferencias">#</a>
+<p>Además del juego de la vida y del autómata celular elemental existen muchas otras <a href="https://en.wikipedia.org/wiki/Category:Cellular_automaton_rules">relgas de autómatas celulares</a>. Algunas reglas son pequeñas variaciones del juego de la vida, otras son reglas totalmente distintas y otros autómatas permiten más de 2 estados por celda. Con cada regla se pueden obtener comportamientos muy distintos.</p>
+<p>En esta actividad debes elegir una regla de un autómata que sea distina al juego de la vida e implementarla en NetLogo.</p>
+<h2 id="parte-2-falling-sand-simulator">
+  Parte 2: Falling sand simulator
+  <a class="anchor" href="#parte-2-falling-sand-simulator">#</a>
 </h2>
-<p>En la Práctica 1 exploramos un modelo donde todos los agentes sin importar su grupo tienen la misma preferencia. Algunos estudios han documentados cómo en algunas regiones de Estados Unidos la población blanca tiene una mayor preferencia de vivir con otros blancos, mientras que la comunidad afro-americana tiene una preferencia menor por vivir con los de su mismo grupo. ¿Qué pasaría si cada en el modelo de Schelling le damos una preferencia diferente a cada grupo?</p>
+<p>Dentro del género de juegos &ldquo;sandbox&rdquo; existe un subgénero que se llama &ldquo;falling-sand games&rdquo;. Estos juegos se caracterizan por tener un motor de juego que es un autómata celular. Por lo tanto, en estos juegos la física del juego está dada por las reglas que se le ponen al autómata celular. Un juego famoso de este género es <a href="https://store.steampowered.com/app/881100/Noita/">Noitia</a>, un roguelite. No obstante la mayoría de los &ldquo;falling-sand games&rdquo; son mundos libres, por ejemplo <a href="https://sandspiel.club/">sandspile</a>. Fíjate como en este juego puedes elegir &ldquo;elementos&rdquo; como arena, agua o fuego y ponerlos a interactuar. Las reglas que dictan como se comportan e interactuan los elementos son un autómata celular. Por ejemplo, las reglas del arena son algo así:</p>
 <ol>
-<li>Crea una copia de tu script del modelo de la práctica que se llame <code>segregacion_diferentes_preferencias.nlogo</code> (usa el modelo con solo 2 grupos, no el que hagas en la parte 1)</li>
-<li>Modifica el modelo para que cada grupo tenga una preferencia distinta. En lugar de tener un solo parámetro <code>preferencia</code> puedes crea: <code>preferencia_1</code> y <code>preferencia_2</code>, que controlen la preferencia de cada grupo.</li>
+<li>Si yo soy una celda de tipo arena y la celda que tengo abajo es de tipo aire entonces intercambio mi tipo con la de abajo (la celda de abajo se hace arena y yo me hago aire). Esta regla permite simular la gravedad (aunque sin aceleración). Sin embargo, esta regla solita no es suficiente ya que obtenemos columnas rígidas de arena que no se caen. Para que obtener un comportamiento que eumula a una pila de arena debemos de agregar las siguientes dos reglas.</li>
+<li>Si la celda de abajo a la derecha es aire entonces intercambio mi tipo con ella (la celda de abajo a la derecha se hace arena y yo aire).</li>
+<li>Si la celda de abajo a la izquierda es aire entonces intercambio mi tipo con ella (la celda de abajo a la izquierda se hace arena y yo aire).</li>
 </ol>
+<p>Las últimas dos reglas que son iguales pueden ocurrir en cualquier orden o hacer que se intercambien de manera aleatoria.</p>
+<p>Con estas tres reglas sencillas podemos obtener una simulación básica del elemento arena. En <a href="https://studio.sandspiel.club/">sandspiel studio</a> uno puede ver las reglas detrás de cada elemento en un editor muy amigable tipo &ldquo;scratch&rdquo; (asegurate de abrir el editor: &ldquo;Open Editor&rdquo;). En el editor puedes crear tus propias reglas.</p>
+<p>El objetivo de esta práctica es que crees un autómata que se comporte como la &ldquo;arena&rdquo; (si quieres implementar otros elementos adelante, es un reto interesante).</p>
 <h2 id="entrega">
   Entrega
   <a class="anchor" href="#entrega">#</a>
 </h2>
-<p>En tu repositorio crea una carpeta que se llame <code>actividad_01</code>. Esta carpeta debe incluir:</p>
+<p>En tu repositorio crea una carpeta que se llame <code>actividad_03</code>. Esta carpeta debe incluir:</p>
 <ol>
-<li>el archivo <code>segregacion_multiples_grupos.nlogo</code> con tu ejercicio de la parte 1, y</li>
-<li>el archivo <code>segregacion_diferentes_preferencias.nlogo</code> con tu ejericio de la parte 2.</li>
+<li>el archivo <code>otro_automata.nlogo</code> con la implementación del autómata celular que elegiste en la parte 1, y</li>
+<li>el archivo <code>falling-sand.nlogo</code> con la implementación de tu &ldquo;falling sand simulator&rdquo; de la parte 2 de la actividad.</li>
 </ol>
 <p>Recuerda que para registrar tus cambios en el repositiorio de git y subirlo a github debes hacer los siguientes comandos desde la carpeta de tu repositorio</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Agregar todos los cambios de mi repositorio a la zona &#34;stage&#34;</span>
@@ -408,8 +401,8 @@ Para ayudarte puedes consultar la <a href="https://ccl.northwestern.edu/netlogo/
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#parte-1-segregación-de-más-de-2-grupos">Parte 1: Segregación de más de 2 grupos</a></li>
-    <li><a href="#parte-2-grupos-con-diferentes-preferencias">Parte 2: Grupos con diferentes preferencias</a></li>
+    <li><a href="#parte-1-otros-autómatas-celulares">Parte 1: Otros autómatas celulares</a></li>
+    <li><a href="#parte-2-falling-sand-simulator">Parte 2: Falling sand simulator</a></li>
     <li><a href="#entrega">Entrega</a></li>
   </ul>
 </nav>

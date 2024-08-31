@@ -6,7 +6,7 @@
     <description>Recent content on Modelado basados en agentes</description>
     <generator>Hugo</generator>
     <language>es-MX</language>
-    <lastBuildDate>Thu, 29 Aug 2024 10:31:58 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 31 Aug 2024 12:20:54 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/curso_MBA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Presentación</title>
@@ -84,6 +84,20 @@
       <pubDate>Thu, 29 Aug 2024 10:31:58 -0600</pubDate>
       <guid>http://localhost:1313/curso_MBA/teoria_03/</guid>
       <description>Teoría 3: Autómatas celulares # Contenido: 4 videos y 1 cuestionario&#xA;Duración estimada: 35 minutos Introducción # En esta sesión vamos a ver qué son los autómatas celulares. Este es un tipo de modelos muy simples y que están muy relacionados a la modelación basada en agentes, además de presentar muchas de las propiedades de los sistemas complejos.&#xA;¿Qué son los autómatas celulares? # El juego de la vida # Autómata celular elemental # Autómatas, sistemas complejos y cómputo # Cuestionario</description>
+    </item>
+    <item>
+      <title>Práctica 3</title>
+      <link>http://localhost:1313/curso_MBA/practica_03/</link>
+      <pubDate>Sat, 31 Aug 2024 11:56:03 -0600</pubDate>
+      <guid>http://localhost:1313/curso_MBA/practica_03/</guid>
+      <description> Práctica 3: Juego de la vida y autómata elemental # Contenido: ? videos&#xA;Duración estimada: ? minutos Introducción # En esta práctica vamos a implementar el juego de la vida y el autómata elemental en NetLogo.&#xA;Parte 1: Juego de la vida # Explicación del modelo # Implementación básica # Interactividad y visualización # Parte 2: Autómata elemental # Explicación del modelo # Pendiente :( # </description>
+    </item>
+    <item>
+      <title>Actividad 3</title>
+      <link>http://localhost:1313/curso_MBA/actividad_03/</link>
+      <pubDate>Sat, 31 Aug 2024 12:20:54 -0600</pubDate>
+      <guid>http://localhost:1313/curso_MBA/actividad_03/</guid>
+      <description> Actividad 1 # Fecha de entrega: 24/08/2024&#xA;Forma de entrega: repositorio de github Esta actividad está asociada a la Práctica 3.&#xA;Parte 1: # </description>
     </item>
   </channel>
 </rss>
