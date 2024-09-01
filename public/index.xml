@@ -90,14 +90,14 @@
       <link>http://localhost:1313/curso_MBA/practica_03/</link>
       <pubDate>Sat, 31 Aug 2024 11:56:03 -0600</pubDate>
       <guid>http://localhost:1313/curso_MBA/practica_03/</guid>
-      <description> Práctica 3: Juego de la vida y autómata elemental # Contenido: ? videos&#xA;Duración estimada: ? minutos Introducción # En esta práctica vamos a implementar el juego de la vida y el autómata elemental en NetLogo.&#xA;Parte 1: Juego de la vida # Explicación del modelo # Implementación básica # Interactividad y visualización # Parte 2: Autómata elemental # Explicación del modelo # Pendiente :( # </description>
+      <description> Práctica 3: Juego de la vida y autómata elemental # Contenido: 7 videos&#xA;Duración estimada: 56 minutos Introducción # En esta práctica vamos a implementar el juego de la vida y el autómata elemental en NetLogo.&#xA;Parte 1: Juego de la vida # Explicación del modelo # Implementación básica # Interactividad y visualización # Parte 2: Autómata elemental # Explicación del modelo # Procedimiento setup # Procedimiento go (parte 1) # Procedimiento go (parte 2) # </description>
     </item>
     <item>
       <title>Actividad 3</title>
       <link>http://localhost:1313/curso_MBA/actividad_03/</link>
       <pubDate>Sat, 31 Aug 2024 12:20:54 -0600</pubDate>
       <guid>http://localhost:1313/curso_MBA/actividad_03/</guid>
-      <description> Actividad 1 # Fecha de entrega: 24/08/2024&#xA;Forma de entrega: repositorio de github Esta actividad está asociada a la Práctica 3.&#xA;Parte 1: # </description>
+      <description>Actividad 3 # Fecha de entrega: 14/09/2024&#xA;Forma de entrega: repositorio de github Esta actividad está asociada a la Práctica 3.&#xA;Parte 1: Otros autómatas celulares # Además del juego de la vida y del autómata celular elemental existen muchas otras relgas de autómatas celulares. Algunas reglas son pequeñas variaciones del juego de la vida, otras son reglas totalmente distintas y otros autómatas permiten más de 2 estados por celda.</description>
     </item>
   </channel>
 </rss>

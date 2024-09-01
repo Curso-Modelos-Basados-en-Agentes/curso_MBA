@@ -7,8 +7,8 @@ weight = 42
 # Práctica 3: Juego de la vida y autómata elemental
 
 {{<hint info>}}
-**Contenido:** ? videos  
-**Duración estimada:** ? minutos
+**Contenido:** 7 videos  
+**Duración estimada:** 56 minutos
 {{</hint>}}
 
 ## Introducción 
@@ -35,9 +35,14 @@ En esta práctica vamos a implementar el juego de la vida y el autómata element
 
 {{<youtube id="drOKA8w7e8c">}}
 
-### Pendiente :(
+### Procedimiento `setup`
 
+{{<youtube id="JcSfaj-tkLM">}}
 
+### Procedimiento `go` (parte 1)
 
+{{<youtube id="hXuFzIyx0P0">}}
 
+### Procedimiento `go` (parte 2)
 
+{{<youtube id="7MSSIaOiQN4">}}
