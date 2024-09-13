@@ -19,7 +19,9 @@ En esta práctica construimos una serie de autómatas celulares estocásticos ba
 
 Hay varias versiones de este autómata, todas comparten el hecho de que hay un ciclo intransitivo (piedra le gana a tijera, tijera le gana a papel y papel a piedra). Crea un autómata donde el color de una celda dependa del número de vecinos que tiene del color que le gana. Por ejemplo, si rojo le gana a azul, azul a amarillo y amarillo a rojo y tu criterio de vecinos es 2, entonces en una iteración las celdas que sean azules y que tengan al menos 2 vecinos rojos deberán cambiar su color a rojo. Tu modelo debe incluir un parámetro que permita modificar el número de vecinos que usas como criterio.
 
-Recuerda que a diferencia de los modelos que implementamos en la práctica este es un autómata celular clásico con actualización sincrónica (todas las celdas se actualizan al mismo tiempo). 
+{{<hint danger>}}**Advetencia**  
+Recuerda que a diferencia de los modelos que implementamos en la práctica este es un autómata celular clásico con actualización sincrónica (todas las celdas se actualizan al mismo tiempo). Puedes repasar cómo funcionaba el juego de la vida que implementamos en la Práctica 3. 
+{{</hint>}}
 
 ## Parte 2: Competencia intransitiva y mobilidad
 

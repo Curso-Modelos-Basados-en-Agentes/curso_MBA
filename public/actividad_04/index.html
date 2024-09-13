@@ -24,7 +24,7 @@ Parte 1: Autómata piedra-papel-tijera # En esta práctica construimos una serie
 <link rel="canonical" href="http://localhost:1313/curso_MBA/actividad_04/">
 <link rel="stylesheet" href="/curso_MBA/book.min.ebcab724e7da78bb73db3c3cc703ce9650dcf1c3e653e7a124f0fe37cecf44a6.css" integrity="sha256-68q3JOfaeLtz2zw8xwPOllDc8cPmU&#43;ehJPD&#43;N87PRKY=" crossorigin="anonymous">
   <script defer src="/curso_MBA/fuse.min.js"></script>
-  <script defer src="/curso_MBA/es.search.min.e2c9b3f32cd210cc1a3c2833ea2ecf765cb4d098df5ca227cd35da8298da81b2.js" integrity="sha256-4smz8yzSEMwaPCgz6i7Pdly00JjfXKInzTXagpjagbI=" crossorigin="anonymous"></script>
+  <script defer src="/curso_MBA/es.search.min.b6a9213db6d3cf269e049321d5b42303f893bce5b006139e5d852fd5674a64a7.js" integrity="sha256-tqkhPbbTzyaeBJMh1bQjA/iTvOWwBhOeXYUv1WdKZKc=" crossorigin="anonymous"></script>
 
   
 
@@ -353,7 +353,11 @@ https://github.com/alex-shpak/hugo-book
 </h2>
 <p>En esta práctica construimos una serie de autómatas celulares estocásticos basados en el modelo de piedra-papel-tijera aplicados al estudio de sistema ecológicos. Sin embargo nos faltó implementar el autómata celular en su forma determinista. En esta primera parte de la práctica debes implementarlo.</p>
 <p>Hay varias versiones de este autómata, todas comparten el hecho de que hay un ciclo intransitivo (piedra le gana a tijera, tijera le gana a papel y papel a piedra). Crea un autómata donde el color de una celda dependa del número de vecinos que tiene del color que le gana. Por ejemplo, si rojo le gana a azul, azul a amarillo y amarillo a rojo y tu criterio de vecinos es 2, entonces en una iteración las celdas que sean azules y que tengan al menos 2 vecinos rojos deberán cambiar su color a rojo. Tu modelo debe incluir un parámetro que permita modificar el número de vecinos que usas como criterio.</p>
-<p>Recuerda que a diferencia de los modelos que implementamos en la práctica este es un autómata celular clásico con actualización sincrónica (todas las celdas se actualizan al mismo tiempo).</p>
+<blockquote class="book-hint danger">
+  <strong>Advetencia</strong><br>
+Recuerda que a diferencia de los modelos que implementamos en la práctica este es un autómata celular clásico con actualización sincrónica (todas las celdas se actualizan al mismo tiempo). Puedes repasar cómo funcionaba el juego de la vida que implementamos en la Práctica 3.
+</blockquote>
+
 <h2 id="parte-2-competencia-intransitiva-y-mobilidad">
   Parte 2: Competencia intransitiva y mobilidad
   <a class="anchor" href="#parte-2-competencia-intransitiva-y-mobilidad">#</a>

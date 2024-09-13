@@ -8,7 +8,7 @@ weight = 52
 
 {{<hint info>}}
 **Contenido:** 9 videos  
-**Duración estimada:** x minutos
+**Duración estimada:** 1 hora 40 minutos
 {{</hint>}}
 
 ## Introducción
@@ -20,6 +20,10 @@ En esta práctica primero como motivación repasamos algunos resultados básicos
 ## Competencia y el Principio de exclusión competitiva
 
 {{<youtube id="x1gxlcc5wnQ">}}
+
+Aquí puedes explorar el modelo de competencia Lotka-Volterra. Puedes <a href="/curso_MBA/netlogo/competencia-LV.nlogo" download> descargar el modelo desde aquí </a> y abrirlo localmente con NetLogo, o explorarlo en el navegador con la aplicación web de abajo o <a href="/curso_MBA/netlogo/competencia-LV.html">abrir la aplicación web en otra pestaña</a>. 
+
+<iframe src="/curso_MBA/netlogo/competencia-LV.html" width="100%" height="600"></iframe>
 
 ## Ciclos intransitivos y mobilidad
 
@@ -35,8 +39,11 @@ En esta práctica primero como motivación repasamos algunos resultados básicos
 
 {{<youtube id="DWmhM6y09vg">}}
 
-## Parte 2: Modelo de selección, reproducción y mobilidad
+{{<hint warning>}} **Cuestionario**  
+Esta sesión práctica tiene asociado un cuestionario que está disponible en el aula virtual del curso. El cuestionario utiliza este modelo por lo que te conviene resolverlo antes de continuar con la práctica.
+{{</hint>}}
 
+## Parte 2: Modelo de selección, reproducción y mobilidad
 
 {{<hint danger>}} **¡Guarda una copia de tu modelo antes de continuar!**  
 Antes de continuar con la parte 2 guarda una copia de tu modelo de la parte 1 ya que ese modelo se usa en el cuestionario asociado a la prácitica y se pide que lo subas como evidencia en la Actividad asociada.
@@ -52,7 +59,7 @@ Antes de continuar con la parte 2 guarda una copia de tu modelo de la parte 1 ya
 
 ### Exploración del modelo
 
-
+{{<youtube id="PT68OPcwugA">}}
 
 ### Explicación de como mejorar la eficiencia del modelo
 
@@ -60,8 +67,4 @@ Antes de continuar con la parte 2 guarda una copia de tu modelo de la parte 1 ya
 
 ### Mejorar la eficiencia del modelo
 
-
-
-{{<hint warning>}} **Cuestionario**  
-Esta sesión práctica tiene asociado un cuestionario que está disponible en el aula virtual del curso.
-{{</hint>}}
+{{<youtube id="twLEm38przE">}}
