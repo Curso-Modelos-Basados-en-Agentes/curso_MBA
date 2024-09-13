@@ -6,7 +6,7 @@
     <description>Recent content on Modelado basados en agentes</description>
     <generator>Hugo</generator>
     <language>es-MX</language>
-    <lastBuildDate>Sat, 31 Aug 2024 12:20:54 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 12 Sep 2024 20:01:06 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/curso_MBA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Presentación</title>
@@ -98,6 +98,20 @@
       <pubDate>Sat, 31 Aug 2024 12:20:54 -0600</pubDate>
       <guid>http://localhost:1313/curso_MBA/actividad_03/</guid>
       <description>Actividad 3 # Fecha de entrega: 14/09/2024&#xA;Forma de entrega: repositorio de github Esta actividad está asociada a la Práctica 3.&#xA;Parte 1: Otros autómatas celulares # Además del juego de la vida y del autómata celular elemental existen muchas otras relgas de autómatas celulares. Algunas reglas son pequeñas variaciones del juego de la vida, otras son reglas totalmente distintas y otros autómatas permiten más de 2 estados por celda.</description>
+    </item>
+    <item>
+      <title>Práctica 4</title>
+      <link>http://localhost:1313/curso_MBA/practica_04/</link>
+      <pubDate>Thu, 12 Sep 2024 20:00:55 -0600</pubDate>
+      <guid>http://localhost:1313/curso_MBA/practica_04/</guid>
+      <description>Práctica 4: Ciclos intransitivos # Contenido: 9 videos&#xA;Duración estimada: x minutos Introducción # En esta práctica vamos ver cómo los modelos de autómatas se pueden aplicar para estudiar fenómenos ecológicos. En particular vamos a estudiar un sistema de competencia intransitiva. El ejemplo mejor conocido de este tipo de sistemas es el juego de «Piedra, papel o tijeras» (también conocido como modelo RSP, por sus siglas en ingles: Rock-Scissors-Paper).</description>
+    </item>
+    <item>
+      <title>Actividad 4</title>
+      <link>http://localhost:1313/curso_MBA/actividad_04/</link>
+      <pubDate>Thu, 12 Sep 2024 20:01:06 -0600</pubDate>
+      <guid>http://localhost:1313/curso_MBA/actividad_04/</guid>
+      <description>Actividad 4 # Fecha de entrega: 21/09/2024&#xA;Forma de entrega: repositorio de github Esta actividad está asociada a la Práctica 4.&#xA;Parte 1: Autómata piedra-papel-tijera # En esta práctica construimos una serie de autómatas celulares estocásticos basados en el modelo de piedra-papel-tijera aplicados al estudio de sistema ecológicos. Sin embargo nos faltó implementar el autómata celular en su forma determinista. En esta primera parte de la práctica debes implementarlo.</description>
     </item>
   </channel>
 </rss>
