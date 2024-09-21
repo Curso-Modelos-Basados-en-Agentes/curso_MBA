@@ -6,7 +6,7 @@
     <description>Recent content on Modelado basados en agentes</description>
     <generator>Hugo</generator>
     <language>es-MX</language>
-    <lastBuildDate>Thu, 12 Sep 2024 20:01:06 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 21 Sep 2024 11:44:30 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/curso_MBA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Presentación</title>
@@ -112,6 +112,20 @@
       <pubDate>Thu, 12 Sep 2024 20:01:06 -0600</pubDate>
       <guid>http://localhost:1313/curso_MBA/actividad_04/</guid>
       <description>Actividad 4 # Fecha de entrega: 21/09/2024&#xA;Forma de entrega: repositorio de github Esta actividad está asociada a la Práctica 4.&#xA;Parte 1: Autómata piedra-papel-tijera # En esta práctica construimos una serie de autómatas celulares estocásticos basados en el modelo de piedra-papel-tijera aplicados al estudio de sistema ecológicos. Sin embargo nos faltó implementar el autómata celular en su forma determinista. En esta primera parte de la práctica debes implementarlo.</description>
+    </item>
+    <item>
+      <title>Práctica 5</title>
+      <link>http://localhost:1313/curso_MBA/pratica_05/</link>
+      <pubDate>Fri, 20 Sep 2024 13:54:16 -0600</pubDate>
+      <guid>http://localhost:1313/curso_MBA/pratica_05/</guid>
+      <description>Práctica 5: Teoría evolutiva de juegos # Contenido: 10 videos&#xA;Duración estimada: 1 hora 40 minutos Introducción # En esta práctica vamos a construir dos modelos para estudiar algunos resultados básicos de la teoría evolutiva de juegos. En particular exploramos qué pasa con el famoso &amp;ldquo;dilema del prisionero&amp;rdquo; cuando lo estudiamos desde la perspectiva de la teoría evolutiva de juegos.&#xA;En esta práctica primero explicamos el &amp;ldquo;dilema del prisionero&amp;rdquo;, luego introducimos qué es la teoría evolutiva de juegos.</description>
+    </item>
+    <item>
+      <title>Actividad 5</title>
+      <link>http://localhost:1313/curso_MBA/actividad_05/</link>
+      <pubDate>Sat, 21 Sep 2024 11:44:30 -0600</pubDate>
+      <guid>http://localhost:1313/curso_MBA/actividad_05/</guid>
+      <description>Actividad 5 # Fecha de entrega: 29/09/2024&#xA;Forma de entrega: repositorio de github En esta actividad sólo debes subir a tu repositorio de github tu código que hiciste en la Práctica 5 como evidencia de que la realizaste.&#xA;Entrega # En tu repositorio crea una carpeta que se llame actividad_05. Ensta carpeta debe incluir:&#xA;el archivo teoria_evolutiva_de_juegos.nlogo con tu código de la parte 1 de la práctica 5. el archivo automata_dilema_prisionero.</description>
     </item>
   </channel>
 </rss>

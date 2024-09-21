@@ -68,3 +68,7 @@ Antes de continuar con la parte 2 guarda una copia de tu modelo de la parte 1 ya
 ### Mejorar la eficiencia del modelo
 
 {{<youtube id="twLEm38przE">}}
+
+{{<hint warning>}} **Cuestionario**  
+Esta práctica tiene asociado un cuestionario está disponible en el aula virtual del curso.
+{{</hint>}}
