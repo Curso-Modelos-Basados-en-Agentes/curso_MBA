@@ -71,7 +71,6 @@ Un juego clásico en la teoría evolutivas de juegos es el [juego de la gallina 
 Aquí puedes consultar [el artículo que se menciona en el video](https://www.nature.com/articles/359826a0.pdf).
 {{</hint>}}
 
-
 {{<hint warning>}} **Cuestionario**  
 Esta práctica tiene asociado un cuestionario está disponible en el aula virtual del curso.
 {{</hint>}}

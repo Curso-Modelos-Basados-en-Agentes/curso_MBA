@@ -6,7 +6,7 @@
     <description>Recent content on Modelado basados en agentes</description>
     <generator>Hugo</generator>
     <language>es-MX</language>
-    <lastBuildDate>Sat, 21 Sep 2024 11:44:30 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 01 Oct 2024 11:04:27 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/curso_MBA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Presentación</title>
@@ -126,6 +126,20 @@
       <pubDate>Sat, 21 Sep 2024 11:44:30 -0600</pubDate>
       <guid>http://localhost:1313/curso_MBA/actividad_05/</guid>
       <description>Actividad 5 # Fecha de entrega: 29/09/2024&#xA;Forma de entrega: repositorio de github En esta actividad sólo debes subir a tu repositorio de github tu código que hiciste en la Práctica 5 como evidencia de que la realizaste.&#xA;Entrega # En tu repositorio crea una carpeta que se llame actividad_05. Ensta carpeta debe incluir:&#xA;el archivo teoria_evolutiva_de_juegos.nlogo con tu código de la parte 1 de la práctica 5. el archivo automata_dilema_prisionero.</description>
+    </item>
+    <item>
+      <title>Práctica 6</title>
+      <link>http://localhost:1313/curso_MBA/practica_06/</link>
+      <pubDate>Tue, 01 Oct 2024 10:14:34 -0600</pubDate>
+      <guid>http://localhost:1313/curso_MBA/practica_06/</guid>
+      <description>Práctica 6: Autoorganización de los arrozales de Bali # Contenido: 10 videos&#xA;Duración estimada: 1 hora 52 minutos Introducción # En esta práctica vamos a ver una aplicación de un modelo de autómatas celulares para estudiar la autoorganización eun socio-ecosistema. En particular vamos a repoducir los resultados del artículo Adaptive self-organization of Bali’s ancient rice terraces que discutimos en clase.&#xA;Primero les dejo un video donde se explica el contexto del sistema que se estudia.</description>
+    </item>
+    <item>
+      <title>Actividad 6</title>
+      <link>http://localhost:1313/curso_MBA/actividad_06/</link>
+      <pubDate>Tue, 01 Oct 2024 11:04:27 -0600</pubDate>
+      <guid>http://localhost:1313/curso_MBA/actividad_06/</guid>
+      <description>Actividad 6 # Fecha de entrega: 12/10/2024 Forma de entrega: repositorio de github Esta actividad está asociada a la Práctica 5.&#xA;Parte 1: Comparar las distribuciones de distintos regímenes # En esta primera parte de la práctica debes crear las gráficas de las distribuciones para distintos parámetros como se muestra en la última parte de la práctica. Compara 5 imágenes distintas (intenta poner 2 del regimen que genera vecindades muy pequeñas, 2 del regimen de cuadrantes y una de la zona intermedia donde $20 a \approx b$).</description>
     </item>
   </channel>
 </rss>

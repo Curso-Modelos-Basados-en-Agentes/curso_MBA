@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="es-MX" dir="ltr">
+<head><script src="/curso_MBA/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=curso_MBA/livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Práctica 6: Autoorganización de los arrozales de Bali # Contenido: 10 videos
+Duración estimada: 1 hora 52 minutos Introducción # En esta práctica vamos a ver una aplicación de un modelo de autómatas celulares para estudiar la autoorganización eun socio-ecosistema. En particular vamos a repoducir los resultados del artículo Adaptive self-organization of Bali’s ancient rice terraces que discutimos en clase.
+Primero les dejo un video donde se explica el contexto del sistema que se estudia.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/curso_MBA/practica_06/">
+  <meta property="og:site_name" content="Modelado basados en agentes">
+  <meta property="og:title" content="Práctica 6">
+  <meta property="og:description" content="Práctica 6: Autoorganización de los arrozales de Bali # Contenido: 10 videos
+Duración estimada: 1 hora 52 minutos Introducción # En esta práctica vamos a ver una aplicación de un modelo de autómatas celulares para estudiar la autoorganización eun socio-ecosistema. En particular vamos a repoducir los resultados del artículo Adaptive self-organization of Bali’s ancient rice terraces que discutimos en clase.
+Primero les dejo un video donde se explica el contexto del sistema que se estudia.">
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2024-10-01T10:14:34-06:00">
+    <meta property="article:modified_time" content="2024-10-01T10:14:34-06:00">
+<title>Práctica 6 | Modelado basados en agentes</title>
+<link rel="manifest" href="/curso_MBA/manifest.json">
+<link rel="icon" href="/curso_MBA/favicon.png" >
+<link rel="canonical" href="http://localhost:1313/curso_MBA/practica_06/">
+<link rel="stylesheet" href="/curso_MBA/book.min.ebcab724e7da78bb73db3c3cc703ce9650dcf1c3e653e7a124f0fe37cecf44a6.css" integrity="sha256-68q3JOfaeLtz2zw8xwPOllDc8cPmU&#43;ehJPD&#43;N87PRKY=" crossorigin="anonymous">
+  <script defer src="/curso_MBA/fuse.min.js"></script>
+  <script defer src="/curso_MBA/es.search.min.e3288cdcb2e6157a2764baf395f647a3e571b109d89d76f923271ac9f1b5916a.js" integrity="sha256-4yiM3LLmFXonZLrzlfZHo&#43;VxsQnYnXb5IycayfG1kWo=" crossorigin="anonymous"></script>
+
+  
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/curso_MBA/"><img src="/curso_MBA/logo_texto.png" alt="Logo" /><span>Modelado basados en agentes</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Buscar" aria-label="Buscar" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/curso_MBA/presentacion/" class="">Presentación</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/curso_MBA/teoria_00/" class="">Teoría 0</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/curso_MBA/practica_00/" class="">Práctica 0</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/curso_MBA/actividad_00/" class="">Actividad 0</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/curso_MBA/teoria_01/" class="">Teoria 1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/curso_MBA/practica_01/" class="">Practica 1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/curso_MBA/actividad_01/" class="">Actividad 1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/curso_MBA/teoria_02/" class="">Teoría 2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/curso_MBA/practica_02/" class="">Práctica 2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/curso_MBA/actividad_02/" class="">Actividad 2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/curso_MBA/teoria_03/" class="">Teoría 3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/curso_MBA/practica_03/" class="">Práctica 3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/curso_MBA/actividad_03/" class="">Actividad 3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/curso_MBA/practica_04/" class="">Práctica 4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/curso_MBA/actividad_04/" class="">Actividad 4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/curso_MBA/pratica_05/" class="">Práctica 5</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/curso_MBA/actividad_05/" class="">Actividad 5</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/curso_MBA/practica_06/" class="active">Práctica 6</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/curso_MBA/actividad_06/" class="">Actividad 6</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/curso_MBA/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Práctica 6</strong>
+
+  <label for="toc-control">
+    
+    <img src="/curso_MBA/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#introducción">Introducción</a></li>
+    <li><a href="#los-arrozales-en-bali">Los arrozales en Bali</a></li>
+    <li><a href="#explicación-del-modelo">Explicación del modelo</a></li>
+    <li><a href="#procedimiento-setup">Procedimiento <code>setup</code></a></li>
+    <li><a href="#procedimiento-go">Procedimiento <code>go</code></a></li>
+    <li><a href="#mejorar-la-eficiencia-del-modelo">Mejorar la eficiencia del modelo</a></li>
+    <li><a href="#exploración-del-modelo">Exploración del modelo</a></li>
+    <li><a href="#ley-de-potencias">Ley de potencias</a></li>
+    <li><a href="#procesamiento-de-imágenes">Procesamiento de imágenes</a></li>
+    <li><a href="#construcción-de-histogramas">Construcción de histogramas</a></li>
+    <li><a href="#comparación-con-otros-regímenes">Comparación con otros regímenes</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="práctica-6-autoorganización-de-los-arrozales-de-bali">
+  Práctica 6: Autoorganización de los arrozales de Bali
+  <a class="anchor" href="#pr%c3%a1ctica-6-autoorganizaci%c3%b3n-de-los-arrozales-de-bali">#</a>
+</h1>
+<blockquote class="book-hint info">
+  <strong>Contenido:</strong> 10 videos<br>
+<strong>Duración estimada:</strong> 1 hora 52 minutos
+</blockquote>
+
+<h2 id="introducción">
+  Introducción
+  <a class="anchor" href="#introducci%c3%b3n">#</a>
+</h2>
+<p>En esta práctica vamos a ver una aplicación de un modelo de autómatas celulares para estudiar la autoorganización eun socio-ecosistema. En particular vamos a repoducir los resultados del artículo <a href="https://www.pnas.org/doi/abs/10.1073/pnas.1605369114">Adaptive self-organization of Bali’s ancient rice terraces</a> que discutimos en clase.</p>
+<p>Primero les dejo un video donde se explica el contexto del sistema que se estudia. Posteriormente reproducimos el modelo en NetLogo. Y finalmente analizamos los resultados del modelo en python para verificar que nuestro modelo reproduce sus resultados.</p>
+<h2 id="los-arrozales-en-bali">
+  Los arrozales en Bali
+  <a class="anchor" href="#los-arrozales-en-bali">#</a>
+</h2>
+<p>En este video Stephen Lansing, el auto principal del trabajo, explica el contexto de los arrozales de Bali. Así mismo presenta los resultados de un <a href="http://www.islandsoforder.com/uploads/4/3/4/1/43417789/lansing_1993_amanthropol_v95_p97.pdf">modelo basado en agentes publicado previamente en 1993</a>.</p>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/kZLLGCaz74M?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h2 id="explicación-del-modelo">
+  Explicación del modelo
+  <a class="anchor" href="#explicaci%c3%b3n-del-modelo">#</a>
+</h2>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/oGRm16GNLlc?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h2 id="procedimiento-setup">
+  Procedimiento <code>setup</code>
+  <a class="anchor" href="#procedimiento-setup">#</a>
+</h2>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/azPDUzTPIqs?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h2 id="procedimiento-go">
+  Procedimiento <code>go</code>
+  <a class="anchor" href="#procedimiento-go">#</a>
+</h2>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/KDz_n27_bg8?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h2 id="mejorar-la-eficiencia-del-modelo">
+  Mejorar la eficiencia del modelo
+  <a class="anchor" href="#mejorar-la-eficiencia-del-modelo">#</a>
+</h2>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/CKD5cEXfnII?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h2 id="exploración-del-modelo">
+  Exploración del modelo
+  <a class="anchor" href="#exploraci%c3%b3n-del-modelo">#</a>
+</h2>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/MGjbf2rbU_8?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h2 id="ley-de-potencias">
+  Ley de potencias
+  <a class="anchor" href="#ley-de-potencias">#</a>
+</h2>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/87hshWKfoN0?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h2 id="procesamiento-de-imágenes">
+  Procesamiento de imágenes
+  <a class="anchor" href="#procesamiento-de-im%c3%a1genes">#</a>
+</h2>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/oYLvsTA7e_w?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h2 id="construcción-de-histogramas">
+  Construcción de histogramas
+  <a class="anchor" href="#construcci%c3%b3n-de-histogramas">#</a>
+</h2>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/DSkbhwTsNX0?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h2 id="comparación-con-otros-regímenes">
+  Comparación con otros regímenes
+  <a class="anchor" href="#comparaci%c3%b3n-con-otros-reg%c3%admenes">#</a>
+</h2>
+<p><a href="/curso_MBA/python/analisis_bali_multiple.py" download>Aquí puedes descargar el script</a> que se utiliza en el video.</p>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/qOSKecU9g9o?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<blockquote class="book-hint warning">
+  <strong>Cuestionario</strong><br>
+Esta práctica tiene asociado un cuestionario está disponible en el aula virtual del curso.
+</blockquote>
+
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#introducción">Introducción</a></li>
+    <li><a href="#los-arrozales-en-bali">Los arrozales en Bali</a></li>
+    <li><a href="#explicación-del-modelo">Explicación del modelo</a></li>
+    <li><a href="#procedimiento-setup">Procedimiento <code>setup</code></a></li>
+    <li><a href="#procedimiento-go">Procedimiento <code>go</code></a></li>
+    <li><a href="#mejorar-la-eficiencia-del-modelo">Mejorar la eficiencia del modelo</a></li>
+    <li><a href="#exploración-del-modelo">Exploración del modelo</a></li>
+    <li><a href="#ley-de-potencias">Ley de potencias</a></li>
+    <li><a href="#procesamiento-de-imágenes">Procesamiento de imágenes</a></li>
+    <li><a href="#construcción-de-histogramas">Construcción de histogramas</a></li>
+    <li><a href="#comparación-con-otros-regímenes">Comparación con otros regímenes</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
