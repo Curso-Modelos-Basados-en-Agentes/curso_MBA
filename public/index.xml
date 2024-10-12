@@ -6,7 +6,7 @@
     <description>Recent content on Modelado basados en agentes</description>
     <generator>Hugo</generator>
     <language>es-MX</language>
-    <lastBuildDate>Tue, 01 Oct 2024 11:04:27 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 12 Oct 2024 09:10:22 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/curso_MBA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Presentación</title>
@@ -139,7 +139,21 @@
       <link>http://localhost:1313/curso_MBA/actividad_06/</link>
       <pubDate>Tue, 01 Oct 2024 11:04:27 -0600</pubDate>
       <guid>http://localhost:1313/curso_MBA/actividad_06/</guid>
-      <description>Actividad 6 # Fecha de entrega: 12/10/2024 Forma de entrega: repositorio de github Esta actividad está asociada a la Práctica 5.&#xA;Parte 1: Comparar las distribuciones de distintos regímenes # En esta primera parte de la práctica debes crear las gráficas de las distribuciones para distintos parámetros como se muestra en la última parte de la práctica. Compara 5 imágenes distintas (intenta poner 2 del regimen que genera vecindades muy pequeñas, 2 del regimen de cuadrantes y una de la zona intermedia donde $20 a \approx b$).</description>
+      <description>Actividad 6 # Fecha de entrega: 12/10/2024 Forma de entrega: repositorio de github Esta actividad está asociada a la Práctica 5.&#xA;Parte 1: Comparar las distribuciones de distintos regímenes # En esta primera parte de la práctica debes crear las gráficas de las distribuciones para distintos parámetros como se muestra en la última parte de la práctica. Compara 5 imágenes distintas (intenta poner 2 del regimen que genera vecindades muy pequeñas, 2 del regimen de cuadrantes y una de la zona intermedia donde \(20 a \approx b\) ).</description>
+    </item>
+    <item>
+      <title>Práctica 7</title>
+      <link>http://localhost:1313/curso_MBA/practica_07/</link>
+      <pubDate>Sat, 12 Oct 2024 09:10:16 -0600</pubDate>
+      <guid>http://localhost:1313/curso_MBA/practica_07/</guid>
+      <description>Práctica 7: Polarización en redes sociales # Contenido: 9 videos&#xA;Duración estimada: 1 hora 52 minutos Introducción # En esta práctica vamos a reporducir el modelo que se presenta en el artículo How digital media drive affective polarization through partisan sorting, el cual discutimos en clase.&#xA;Primero les dejo (de nuevo) un video que resume las ideas principales de cómo surge la polarización en las redes sociales. Posteriormente implementamos el modelo en NetLogo.</description>
+    </item>
+    <item>
+      <title>Actividad 7</title>
+      <link>http://localhost:1313/curso_MBA/actividad_07/</link>
+      <pubDate>Sat, 12 Oct 2024 09:10:22 -0600</pubDate>
+      <guid>http://localhost:1313/curso_MBA/actividad_07/</guid>
+      <description>Actividad 7 # Fecha de entrega: 19/10/2024 Forma de entrega: repositorio de github Esta actividad está asociada a la Práctica 6. La parte 2 de la actividad es opcional.&#xA;Parte 1: Explora otros modelos de redes # Las redes sociales en el mundo real no son como en una látice en la que todos tienen el mismo número de enlaces. Hay personas que son muy populares y entonces tienen muchos enlaces, mientras que hay otros que no tienen muchos conocidos y tienen pocos enlaces.</description>
     </item>
   </channel>
 </rss>

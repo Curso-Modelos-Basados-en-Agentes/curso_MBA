@@ -61,9 +61,5 @@ En este video Stephen Lansing, el auto principal del trabajo, explica el context
 
 {{<youtube id="qOSKecU9g9o">}}
 
-{{<hint warning>}} **Cuestionario**  
-Esta práctica tiene asociado un cuestionario está disponible en el aula virtual del curso.
-{{</hint>}}
-
 
 
