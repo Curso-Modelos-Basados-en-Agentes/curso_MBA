@@ -38,7 +38,7 @@ Revisa la [documentación de NetLogo](https://ccl.northwestern.edu/netlogo/docs/
 
 ## Entrega
 
-En tu repositorio crea una carpeta que se llame `actividad_06`. Ensta carpeta debe incluir:
+En tu repositorio crea una carpeta que se llame `actividad_06`. En esta carpeta debe incluir:
 
 1. la imagen `comparacion_regimenes.png` con el ejercicio de la parte 1 de la actividad
 2. el archivo `modelo_arrozales_bali.nlogo` con tu código de la parte 2 de la práctica

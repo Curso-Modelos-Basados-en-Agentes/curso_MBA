@@ -57,4 +57,6 @@ En este video se resumen algunas de las hipótesis que los sociólogos han desar
 
 ## Análisis de la dinámica
 
+<a href="/curso_MBA/R/dinamica_polarizacion.R" download>Aquí puedes descargar el script</a> que se utiliza en el video.
+
 {{<youtube id="7KiOgeBFnoc">}}
