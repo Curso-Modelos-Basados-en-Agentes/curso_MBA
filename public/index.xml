@@ -6,7 +6,7 @@
     <description>Recent content on Modelado basados en agentes</description>
     <generator>Hugo</generator>
     <language>es-MX</language>
-    <lastBuildDate>Sat, 12 Oct 2024 09:10:22 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 18 Oct 2024 10:43:49 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/curso_MBA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Presentación</title>
@@ -153,7 +153,21 @@
       <link>http://localhost:1313/curso_MBA/actividad_07/</link>
       <pubDate>Sat, 12 Oct 2024 09:10:22 -0600</pubDate>
       <guid>http://localhost:1313/curso_MBA/actividad_07/</guid>
-      <description>Actividad 7 # Fecha de entrega: 19/10/2024 Forma de entrega: repositorio de github Esta actividad está asociada a la Práctica 6. La parte 2 de la actividad es opcional.&#xA;Parte 1: Explora otros modelos de redes # Las redes sociales en el mundo real no son como en una látice en la que todos tienen el mismo número de enlaces. Hay personas que son muy populares y entonces tienen muchos enlaces, mientras que hay otros que no tienen muchos conocidos y tienen pocos enlaces.</description>
+      <description>Actividad 7 # Fecha de entrega: 19/10/2024 Forma de entrega: repositorio de github Esta actividad está asociada a la Práctica 7. La parte 2 de la actividad es opcional.&#xA;Parte 1: Explora otros modelos de redes # Las redes sociales en el mundo real no son como en una látice en la que todos tienen el mismo número de enlaces. Hay personas que son muy populares y entonces tienen muchos enlaces, mientras que hay otros que no tienen muchos conocidos y tienen pocos enlaces.</description>
+    </item>
+    <item>
+      <title>Teoría 4</title>
+      <link>http://localhost:1313/curso_MBA/teoria_04/</link>
+      <pubDate>Fri, 18 Oct 2024 10:29:22 -0600</pubDate>
+      <guid>http://localhost:1313/curso_MBA/teoria_04/</guid>
+      <description>Teoría 4: Proceso de modelación # Contenido: 5 videos y 1 cuestionario&#xA;Duración estimada: 33 minutos Introducción # En esta sesión vamos a discutir cómo es el proceso de consturir un modelo basado en agentes. Repasamos qué se debe hacer en cada parte del proceso y damos algunos ejemplos de cómo se ven en la práctica.&#xA;Diseño e implementación # Verificación # Calibración # Validación y análisis # Reproducibilidad # Cuestionario</description>
+    </item>
+    <item>
+      <title>Práctica 8</title>
+      <link>http://localhost:1313/curso_MBA/practica_08/</link>
+      <pubDate>Fri, 18 Oct 2024 10:43:49 -0600</pubDate>
+      <guid>http://localhost:1313/curso_MBA/practica_08/</guid>
+      <description>Práctica 8: Modelo de tráfico # Contenido: 6 videos&#xA;Duración estimada: 1 hora 2 minutos Introducción # ¿Cómo es que se forma el tráfico? En esta práctica vamos a construir y explorar un modelo sobre la formación de tráfico. En este modelo vamos a explorar que pasa cuando ponemos a varios carros a moverse en una dimensión permitiendo que cambien su aceleración para evitar chocar. En este sencillo fenómeno encontraremos algunas propiedades características de los sistemas complejos como las propiedades emergentes y los puntos críticos.</description>
     </item>
   </channel>
 </rss>

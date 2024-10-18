@@ -11,7 +11,7 @@ weight = 83
 **Forma de entrega:** repositorio de github
 {{</hint>}}
 
-Esta actividad está asociada a la Práctica 6. **La parte 2 de la actividad es opcional**. 
+Esta actividad está asociada a la Práctica 7. **La parte 2 de la actividad es opcional**. 
 
 ## Parte 1: Explora otros modelos de redes
 

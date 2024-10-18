@@ -32,5 +32,5 @@ En esta sesión vamos a ver qué son los autómatas celulares. Este es un tipo d
 {{<youtube MTj0xpl5xSw>}}
 
 {{<hint warning>}} **Cuestionario**  
-Esta sesión teórica tiene asociado un cuestionario está disponible en el aula virtual del curso.
+Esta sesión teórica tiene asociado un cuestionario que está disponible en el aula virtual del curso.
 {{</hint>}}
