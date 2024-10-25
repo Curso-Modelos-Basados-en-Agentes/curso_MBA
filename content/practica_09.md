@@ -4,7 +4,7 @@ date = 2024-10-24T10:23:20-06:00
 weight = 101
 +++
 
-# Práctica 10: Algoritmos genéticos
+# Práctica 9: Algoritmos genéticos
 
 {{<hint info>}}
 **Contenido:** 11 videos  
