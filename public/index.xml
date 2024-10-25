@@ -6,7 +6,7 @@
     <description>Recent content on Modelado basados en agentes</description>
     <generator>Hugo</generator>
     <language>es-MX</language>
-    <lastBuildDate>Fri, 18 Oct 2024 10:43:49 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 24 Oct 2024 11:22:20 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/curso_MBA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Presentación</title>
@@ -139,7 +139,7 @@
       <link>http://localhost:1313/curso_MBA/actividad_06/</link>
       <pubDate>Tue, 01 Oct 2024 11:04:27 -0600</pubDate>
       <guid>http://localhost:1313/curso_MBA/actividad_06/</guid>
-      <description>Actividad 6 # Fecha de entrega: 12/10/2024 Forma de entrega: repositorio de github Esta actividad está asociada a la Práctica 5.&#xA;Parte 1: Comparar las distribuciones de distintos regímenes # En esta primera parte de la práctica debes crear las gráficas de las distribuciones para distintos parámetros como se muestra en la última parte de la práctica. Compara 5 imágenes distintas (intenta poner 2 del regimen que genera vecindades muy pequeñas, 2 del regimen de cuadrantes y una de la zona intermedia donde \(20 a \approx b\) ).</description>
+      <description>Actividad 6 # Fecha de entrega: 12/10/2024&#xA;Forma de entrega: repositorio de github Esta actividad está asociada a la Práctica 5.&#xA;Parte 1: Comparar las distribuciones de distintos regímenes # En esta primera parte de la práctica debes crear las gráficas de las distribuciones para distintos parámetros como se muestra en la última parte de la práctica. Compara 5 imágenes distintas (intenta poner 2 del regimen que genera vecindades muy pequeñas, 2 del regimen de cuadrantes y una de la zona intermedia donde \(20 a \approx b\) ).</description>
     </item>
     <item>
       <title>Práctica 7</title>
@@ -153,7 +153,7 @@
       <link>http://localhost:1313/curso_MBA/actividad_07/</link>
       <pubDate>Sat, 12 Oct 2024 09:10:22 -0600</pubDate>
       <guid>http://localhost:1313/curso_MBA/actividad_07/</guid>
-      <description>Actividad 7 # Fecha de entrega: 19/10/2024 Forma de entrega: repositorio de github Esta actividad está asociada a la Práctica 7. La parte 2 de la actividad es opcional.&#xA;Parte 1: Explora otros modelos de redes # Las redes sociales en el mundo real no son como en una látice en la que todos tienen el mismo número de enlaces. Hay personas que son muy populares y entonces tienen muchos enlaces, mientras que hay otros que no tienen muchos conocidos y tienen pocos enlaces.</description>
+      <description>Actividad 7 # Fecha de entrega: 19/10/2024&#xA;Forma de entrega: repositorio de github Esta actividad está asociada a la Práctica 7. La parte 2 de la actividad es opcional.&#xA;Parte 1: Explora otros modelos de redes # Las redes sociales en el mundo real no son como en una látice en la que todos tienen el mismo número de enlaces. Hay personas que son muy populares y entonces tienen muchos enlaces, mientras que hay otros que no tienen muchos conocidos y tienen pocos enlaces.</description>
     </item>
     <item>
       <title>Teoría 4</title>
@@ -168,6 +168,27 @@
       <pubDate>Fri, 18 Oct 2024 10:43:49 -0600</pubDate>
       <guid>http://localhost:1313/curso_MBA/practica_08/</guid>
       <description>Práctica 8: Modelo de tráfico # Contenido: 6 videos&#xA;Duración estimada: 1 hora 2 minutos Introducción # ¿Cómo es que se forma el tráfico? En esta práctica vamos a construir y explorar un modelo sobre la formación de tráfico. En este modelo vamos a explorar que pasa cuando ponemos a varios carros a moverse en una dimensión permitiendo que cambien su aceleración para evitar chocar. En este sencillo fenómeno encontraremos algunas propiedades características de los sistemas complejos como las propiedades emergentes y los puntos críticos.</description>
+    </item>
+    <item>
+      <title>Actividad 8</title>
+      <link>http://localhost:1313/curso_MBA/actividad_08/</link>
+      <pubDate>Fri, 18 Oct 2024 10:50:29 -0600</pubDate>
+      <guid>http://localhost:1313/curso_MBA/actividad_08/</guid>
+      <description>Actividad 8 # Fecha de entrega: 26/10/2024&#xA;Forma de entrega: repositorio de github Esta actividad destá asociada a la Práctica 8.&#xA;Validación del modelo # La siguiente figura muestra los resultados que obtuvieron Tadaki et al. (2013) en un experimento empírico. Esta gráfica muestra la relación entre la densidad de autos ( \(\rho\) , media en número de autos por kilómetro) y el flujo ( \(q\) , medido como la cantidad de autos que pasan por un punto durante un intervalo de 5 minutos).</description>
+    </item>
+    <item>
+      <title>Práctica 9</title>
+      <link>http://localhost:1313/curso_MBA/practica_09/</link>
+      <pubDate>Thu, 24 Oct 2024 10:23:20 -0600</pubDate>
+      <guid>http://localhost:1313/curso_MBA/practica_09/</guid>
+      <description>Práctica 10: Algoritmos genéticos # Contenido: 11 videos&#xA;Duración estimada: 2 horas 6 minutos Introducción # En esta práctica vamos a evolucionar a una población de tortugas usando un algoritmo genético y redes neuronales. Primero se explican brevemente los fundamentos de la evolución biológica, los algoritmos genéticos y las redes neuronales. Y luego se implementa el modelo explorando 3 condiciones distintas.&#xA;Esta práctica esta basada en modelos como los siguientes:</description>
+    </item>
+    <item>
+      <title>Actividad 9</title>
+      <link>http://localhost:1313/curso_MBA/actividad_09/</link>
+      <pubDate>Thu, 24 Oct 2024 11:22:20 -0600</pubDate>
+      <guid>http://localhost:1313/curso_MBA/actividad_09/</guid>
+      <description>Actividad 9 # Fecha de entrega: 5/11/2024&#xA;Forma de entrega: repositorio de github Esta actividad está asociada a la Práctica 9. Puedes elegir solo hacer una de las dos opciones para esta actividad (o puedes hacer las dos si quieres).&#xA;Opción 1: Extiende el modelo # El objetivo de esta opción de la actividad es que modifiques de alguna manera el modelo que construimos. Existen muchas posibles modificaciones desde algunas muy simples a otras más complejas.</description>
     </item>
   </channel>
 </rss>

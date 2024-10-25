@@ -7,7 +7,7 @@ weight = 73
 # Actividad 6
 
 {{<hint info>}}
-**Fecha de entrega:** 12/10/2024
+**Fecha de entrega:** 12/10/2024  
 **Forma de entrega:** repositorio de github
 {{</hint>}}
 
