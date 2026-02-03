@@ -1,86 +1,117 @@
 +++
-title = 'Presentación'
+title = 'Programa'
 date = 2024-07-30T14:59:08-06:00
 weight = 1
 +++
 
-# Presentación
+# Programa
 
-## Proyecto I: "Modelación basada en agentes de sistemas sociales, ecológicos y socio-ecológicos"
+### Información del curso
 
-La modelación basada en agentes es un paradigma de modelación que ha ganado mucha popularidad en diversas disciplinas como en las ciencias sociales, la ecología y la economía y ha sido central en el desarrollo de las ciencias de la complejidad. Esta aproximación de modelación que se ha hecho muy accesible gracias al crecimiento de la capacidad de cómputo y al rápido y activo desarrollo de herramientas de simulación.
+- **Nombre del curso**: Proyecto I: Modelado basado en agentes de sistemas biológicos y sociales
+- **Créditos**: 10
+- **Salón**: P104
+- **Horario**: lunes y miércoles de 11 a 12
+- **Aula virtual**: Google classroom
 
-Dada la flexibilidad y amplia gama de aplicabilidad del modelado basado en agentes, esta es una herramienta que facilita y promueve la investigación interdisciplinaria, por lo es una herramienta muy relevante para los estudiantes de matemáticas aplicadas. Este será un curso donde además de adquirir habilidades la modelación computacional se discutirán una gran diversidad de temas en ciencias sociales, ecología y sistemas socio-ecológicos. Asimismo los estudiantes podrán desarrollar sus habilidades en programación, análisis de datos, redacción escrita e investigación a traves del desarrollo de un proyecto de un tema de su elección.
+### Información de contacto
+- **Profesor**: Luis Guillermo García Jácome
+- **correo**: lggj37@ciencias.unam.mx
 
-## Dinámica del curso
+### Descripción del curso
 
-El curso constará de 4 tipos de sesiones:
+Los modelos basados en agentes (MBA) son simulaciones computacionales que permiten modelar las interacciones entre agentes autónomos. Estos modelos son utilizados en una gran diversidad de disciplinas y permiten explorar preguntas como: ¿cómo se forman las parvadas? ¿cómo se organizan las hormigas para forrajear alimento? ¿cómo surge la polarización en redes sociales? ¿por qué observamos segregación en las ciudades?
 
-1. **Sesiones teóricas**, en las que el docente expondrá un tema (asincrónicas: videos).
-2. **Sesiones prácticas**, en las que se programarán y analizarán modelos basados en agentes (en NetLogo, python y R) (asincrónicas: videos). En estas sesiones se aprenderán los fundamentos de distintas herramientas para simular modelos basados en agentes. Y se repoducirán los modelos y análisis de artículos discutidos.
-3. **Sesiones de discusión**, en las que se discutirán lecturas (artículos, capítulos de libro) (presenciales).
-4. **Sesiones de asesoría**, en las que se presentarán avances del proyecto y se dará retroalimentación y ayuda (presenciales y virtuales).
+En este curso los estudiantes aprenderán los fundamentos de la modelación basada en agentes y de los autómatas celulares, y comprenderán por que son herramientas poderosas para estudiar sistemas complejos. Los alumnos aprenderán a diseñar, programar y analizar modelos de agentes, y al finalizar el curso construirán un modelo aplicado a un fenómeno de su interés.
 
-Habrá un aula virutal de google classroom donde se entregarán actividades y se llevará el registro de calificaciones. Así mismo cada alumno deberá subir el su código de sus tareas y proyecto a un repositorio en linea (e.g., github, gitlab, sourcehut).
+### Objetivos
 
-## Evaluación
+#### Objetivos generales
 
-La evaluación consistirá en:
+Al finalizar el curso el estudiante será capas de...
+- modelar un fenómeno o problema utilizando modelos basados en agentes
+- elegir las herramientas matemáticas y computacionales adecuadas para resolver un problema
+- presentar los resultados de su trabajo de manera oral y escrita
 
-- 20% evidencias de lectura (e.g., resumenes, lista de ideas clave y/o preguntas) y participación en las sesiones de discusión.
-- 30% tareas (de la parte teórica y práctica; se entregarán por moodle o github)
-- 50% proyecto final (este consistirá en construir un modelo de agentes, hacer sus análisis y documentación, entregar un reporte escrito y presentarlo)
+#### Objetivos particulares
 
-## Temario
+Al finalizar el curso el estudiante sera capas de...
+- buscar información relativa al problema que se le plantee
+- determinar el modelo matemático adecuado para un problema
+- usar modelos simplificados para obtener resultados parciales, incroprorar paulatinamente elementos a un modelo y analizar los resultados
+- extraer conclusiones de los resultados
+- comunicar su trabajo de manera oral y escrita 
 
-### Introducción al modelado basado en agentes
-- ¿Qué es el modelado basado en agentes?
-- ¿Qué son los autómatas celulares?
-- Historia del modelado basado en agentes y autómatas celulares
-- Modelos de "top-down" y modelos "bottom-up"
-- Modelos de agentes espacialmente explícitos y de redes
-- Conceptos básicos del modelado multiagentes: agentes, reglas de comportamiento, propiedades emergentes
-- Modelos simples vs modelos complicados
+### Estructura del curso
 
-### Construcción de modelos basados en agentes
-- Conceptos de diseño de los modelos de agentes
-- Herramientas para la simulación basada en agentes: NetLogo, Mesa, Agents.jl, Mason, Gama Platform, Cormas, Repast
-- Implementación de modelos de agentes
-- Documentación de modelos de agentes: protocolos ODD, ODD+D, TRACE, diagramas UML
-- Verificación
+El curso mezclará sesiones presenciales con sesiones asincrónicas. En particular el curso tendrá 5 tipos de sesiones:
+1. **Sesiones teóricas**, en las que el profesor expondrá un tema (*asincrónicas*, con videos pregrabados).
+2. **Sesiones prácticas**, en las que se programarán (en NetLogo) y analizarán MBA (en R y python) (*asincrónicas*, con videos pregrabados).
+3. **Sesiones de discusión**, en las que se discutirán lecturas asignadas por el profesor (*presenciales*).
+4. **Sesiones de laboratorio**, en las que se realizarán ejercicios de programación y modelación (*presenciales*). 
+5. **Sesiones de asesoría**, en las que se presentarán y discutirán avances del proyecto final (*presenciales*).
 
-### Análisis de modelos basados en agentes
-- Modelado basado en patrones
-- Análisis de sensibilidad
-- Validación
-- Experimentación /in silico/
-- Análisis y visualización de resultados
-- Limitaciones de los modelos basados en agentes
+Los lunes se llevarán a cabo las sesiones de discusión y los miércoles las sesiones de laboratorio y asesoría. Así mismo el lunes de cada semana se compartirán los materiales correspondientes a las sesiones teóricas y prácticas que los alumnos deberán completar a su propio ritmo durante la semana.
 
-### Autómatas celulares
-- El juego de la vida
-- Autómatas celulares en 1D
-- Modelos de percolación
+Se tendrá un aula virtual de Classroom, donde se compartirá material y donde se subirán entregas. Las sesiones teóricas y prácticas se podrán consultar en [[https://curso-modelos-basados-en-agentes.github.io/curso_MBA/][la página del curso]]. Además cada alumno deberá tener un repositorio de Github donde subir su código.
 
-### Modelos basados en agentes de sistemas sociales
-- Modelos de segregación
-- Modelos "Sugarspace"
-- Modelo de polarización en redes sociales
-- Modelos de difusión de información en redes
+### Evaluación
 
-### Modelos basados en agentes de sistemas ecológicos
-- Modelos de dinámicas poblacionales espacialmente explícitos 
-- Modelos de movimiento y forrajeo animal
-- Modelos de agentes y algoritmos genéticos
+| Campo | Descripción | Porcentaje |
+|-|-|-
+| Teoría | Cuestionarios y evidencias de la parte teórica| 15% |
+| Lecturas | Lista de ideas clave de las lecturas y participación en sesiones de discusión | 15% |
+| Práctica | Evidencias y actividades de las prácticas | 30% |
+| Proyecto final | Diseño, construcción y análisis de un modelo de agentes de un tema de su interés (reporte escrito y presentación) | 40% |
 
-### Modelos basados en agentes de sistemas socio-ecológicos
-- Modelo de los arrozales en Bali
-- Modelos de cambio de uso de suelo
-- Modelos de manejo de recursos naturales y la tragedia de los comunes
-- Modelos basados en agentes y sistemas de información geográfica
-- Modelación participativa y juegos serios socio-ecológicos
 
-## Bibliografía
+### Escala de calificaciones
+
+Se utilizará la siguiente escala de calificaciones:
+
+| Calificación | Rango |
+|-:|-:|
+| 10 | 100 - 95 |
+| 9 | 85 - 94 |
+| 8 | 75 - 84 |
+| 7 | 65 - 74 |
+| 6 | 60 - 64 |
+| 5 | < 60|
+| NP | Ninguna entrega realizada |
+
+### Calendario
+
+| Semana | Día | Actividad | 
+|-|-|-|
+|1| 04/02| - Presentación del curso <br> - Teoría: Primera aproximación a la MBA <br> - Práctica: Introducción a NetLogo|
+|2| 09/02| - Discusión: Science and Complexity <br> - Teoría: Introducción a los sistemas complejos <br> - Práctica: Modelo de segregación de Schelling |
+|2| 11/02| - Laboratorio: Modelo presa-depredador |
+|3| 16/02| - Discusión: <br> - Teoría: Modelación basada en agentes <br> - Práctica: Sincronización de luciérnagas <br>|
+|3| 18/02| - Laboratorio: Palomillas |
+|4| 23/02| - Discusión: Mathematical games <br> - Teoría: Autómatas celulares <br> - Práctica: Autómatas celulares|
+|4| 25/02| - Laboratorio: Modelo de incendios |
+|5| 02/03| - Discusión: <br> - Práctica: Teoría evolutiva de juegos|
+|5| 04/03| - Laboratorio: Modelo de epidemias |
+|6| 09/03| - Discusión: <br> - Práctica: Modelo El Farol |
+|6| 11/03| - Laboratorio: Simple economy |
+|7| 18/03| - Discusión: How digital media <br> - Práctica: Polarización de redes sociales|
+|8| 23/03| - Discusión: <br> - Teoría: Proceso de modelación <br> - Práctica: Modelo de tráfico |
+|8| 25/03| - Asesoría: Proyecto final |
+|9| 06/04| - Discusión <br> - Práctica: Modelo de forrajeo de hormigas |
+|9| 08/04| - Laboratorio: Modelo de moho |
+|10| 13/04| - Discución: Algoritmos genéticos <br> - Práctica: Algoritmos genéticos|
+|10| 15/04| - Laboratorio: Algoritmos genéticos |
+|11| 20/04| - Práctica: Modelos basados en agentes en python (opcional) |
+|11| 22/04| - Asesoría: Proyecto final |
+|12| 29/04| - Asesoría: Proyecto final |
+|13| 06/05| - Asesoría: Proyecto final |
+|14| 13/05| - Asesoría: Proyecto final |
+|15| 20/05| - Asesoría: Proyecto final |
+|16| 27/05| - Presentación proyecto final |    
+
+
+### Bibliografía
+
 - Wilensky, U., & Rand, W. (2015). An introduction to agent-based modeling: Modeling natural, social, and engineered complex systems with NetLogo. The MIT Press.
 - Railsback, S. F., & Grimm, V. (2019). Agent-based and individual-based modeling: A practical introduction (Second edition). Princeton University Press.
 - Janssen, M. (2020). Introduction to Agent-based modeling: with applications to social, ecological and social-ecological systems. Arizona State University.
