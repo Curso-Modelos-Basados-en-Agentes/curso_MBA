@@ -10,7 +10,7 @@ weight = 1
 
 - **Nombre del curso**: Proyecto I: Modelado basado en agentes de sistemas biológicos y sociales
 - **Créditos**: 10
-- **Salón**: P104
+- **Salón**: ??? 
 - **Horario**: lunes y miércoles de 11 a 12
 - **Aula virtual**: Google classroom
 
@@ -78,6 +78,65 @@ Se utilizará la siguiente escala de calificaciones:
 | 6 | 60 - 64 |
 | 5 | < 60|
 | NP | Ninguna entrega realizada |
+
+## Temario
+
+**Introducción a los sistemas complejos**
+
+-   Reduccionismo y ciencias de la complejidad
+-   Definición de sistemas complejos
+-   Conceptos clave: sistemas dinámicos, caos, no linealidad, emergencia, auto-organización y complejidad
+
+
+**Modelos basados en agentes**
+
+-   ¿Qué es un modelo?
+-   Características de la modelación basada en agentes
+-   Diferencias entre la MBA y otras formas de modelación
+-   Herramientas para construir MBA
+-   El papel de la simulación en la ciencia
+-   Historia y orígenes de la MBA
+-   Modelos de sistemas sociales:
+    -   Modelos de evacuación
+    -   Modelo de segregación de Schelling
+    -   Modelo de polarización en redes sociales
+    -   Modelos de epidemias
+    -   Modelo "El Farol"
+    -   Modelos de tráfico
+-   Modelos de sistemas biológicos:
+    -   Modelos presa-depredador
+    -   Modelo de movimiento colectivo
+    -   Modelos de forrajeo de hormigas
+    -   Modelos de metapoblaciones
+    -   Modelo de sincronización de luciérnagas
+    -   Modelos de teoría evolutiva de juegos
+    -   Modelos con algoritmos genéticos
+
+
+**Autómatas celulares**
+
+-   ¿Qué son los autómatas celulares?
+-   El juego de la vida
+-   Autómata celular elemental
+-   Autómatas, sistemas complejos y cómputo
+-   Ejemplos de modelos
+    -   Modelo de percolación e incendios
+    -   Modelo de "piedra papel o tijera"
+    -   Modelo de dilema del prisionero espacializado
+    -   Modelo de arrozales en Bali
+    -   Modelos de reacciones químicas
+
+
+**Proceso de modelación**
+
+-   Diseño
+-   Implementación
+-   Verificación
+-   Calibración
+-   Validación
+-   Análisis
+-   Reproducibilidad y documentación
+
 
 ### Calendario
 
