@@ -10,7 +10,7 @@ weight = 1
 
 - **Nombre del curso**: Proyecto I: Modelado basado en agentes de sistemas biológicos y sociales
 - **Créditos**: 10
-- **Salón**: ??? 
+- **Salón**: ?
 - **Horario**: lunes y miércoles de 11 a 12
 - **Aula virtual**: Google classroom
 
@@ -76,97 +76,41 @@ Se utilizará la siguiente escala de calificaciones:
 | 8 | 75 - 84 |
 | 7 | 65 - 74 |
 | 6 | 60 - 64 |
-| 5 | < 60|
+| 5 | > 60|
 | NP | Ninguna entrega realizada |
-
-## Temario
-
-**Introducción a los sistemas complejos**
-
--   Reduccionismo y ciencias de la complejidad
--   Definición de sistemas complejos
--   Conceptos clave: sistemas dinámicos, caos, no linealidad, emergencia, auto-organización y complejidad
-
-
-**Modelos basados en agentes**
-
--   ¿Qué es un modelo?
--   Características de la modelación basada en agentes
--   Diferencias entre la MBA y otras formas de modelación
--   Herramientas para construir MBA
--   El papel de la simulación en la ciencia
--   Historia y orígenes de la MBA
--   Modelos de sistemas sociales:
-    -   Modelos de evacuación
-    -   Modelo de segregación de Schelling
-    -   Modelo de polarización en redes sociales
-    -   Modelos de epidemias
-    -   Modelo "El Farol"
-    -   Modelos de tráfico
--   Modelos de sistemas biológicos:
-    -   Modelos presa-depredador
-    -   Modelo de movimiento colectivo
-    -   Modelos de forrajeo de hormigas
-    -   Modelos de metapoblaciones
-    -   Modelo de sincronización de luciérnagas
-    -   Modelos de teoría evolutiva de juegos
-    -   Modelos con algoritmos genéticos
-
-
-**Autómatas celulares**
-
--   ¿Qué son los autómatas celulares?
--   El juego de la vida
--   Autómata celular elemental
--   Autómatas, sistemas complejos y cómputo
--   Ejemplos de modelos
-    -   Modelo de percolación e incendios
-    -   Modelo de "piedra papel o tijera"
-    -   Modelo de dilema del prisionero espacializado
-    -   Modelo de arrozales en Bali
-    -   Modelos de reacciones químicas
-
-
-**Proceso de modelación**
-
--   Diseño
--   Implementación
--   Verificación
--   Calibración
--   Validación
--   Análisis
--   Reproducibilidad y documentación
-
 
 ### Calendario
 
+**Nota**: Este calendario está sujeto a cambios.
+
 | Semana | Día | Actividad | 
 |-|-|-|
-|1| 04/02| - Presentación del curso <br> - Teoría: Primera aproximación a la MBA <br> - Práctica: Introducción a NetLogo|
-|2| 09/02| - Discusión: Science and Complexity <br> - Teoría: Introducción a los sistemas complejos <br> - Práctica: Modelo de segregación de Schelling |
-|2| 11/02| - Laboratorio: Modelo presa-depredador |
-|3| 16/02| - Discusión: <br> - Teoría: Modelación basada en agentes <br> - Práctica: Sincronización de luciérnagas <br>|
-|3| 18/02| - Laboratorio: Palomillas |
-|4| 23/02| - Discusión: Mathematical games <br> - Teoría: Autómatas celulares <br> - Práctica: Autómatas celulares|
-|4| 25/02| - Laboratorio: Modelo de incendios |
-|5| 02/03| - Discusión: <br> - Práctica: Teoría evolutiva de juegos|
-|5| 04/03| - Laboratorio: Modelo de epidemias |
-|6| 09/03| - Discusión: <br> - Práctica: Modelo El Farol |
-|6| 11/03| - Laboratorio: Simple economy |
-|7| 18/03| - Discusión: How digital media <br> - Práctica: Polarización de redes sociales|
-|8| 23/03| - Discusión: <br> - Teoría: Proceso de modelación <br> - Práctica: Modelo de tráfico |
-|8| 25/03| - Asesoría: Proyecto final |
-|9| 06/04| - Discusión <br> - Práctica: Modelo de forrajeo de hormigas |
-|9| 08/04| - Laboratorio: Modelo de moho |
-|10| 13/04| - Discución: Algoritmos genéticos <br> - Práctica: Algoritmos genéticos|
-|10| 15/04| - Laboratorio: Algoritmos genéticos |
-|11| 20/04| - Práctica: Modelos basados en agentes en python (opcional) |
-|11| 22/04| - Asesoría: Proyecto final |
-|12| 29/04| - Asesoría: Proyecto final |
-|13| 06/05| - Asesoría: Proyecto final |
-|14| 13/05| - Asesoría: Proyecto final |
-|15| 20/05| - Asesoría: Proyecto final |
-|16| 27/05| - Presentación proyecto final |    
+|1| 04/02| Presentación del curso|
+|2| 09/02| Discusión: Science and Complexity <br>Teoría: Primera aproximación a la MBA <br> Práctica: Introducción a NetLogo|
+|2| 11/02| Laboratorio: Turtle graphics |
+|3| 16/02| Discusión: <br> Teoría: Introducción a los sistemas complejos <br> Práctica: Modelo de segregación de Schelling |
+|3| 18/02| Laboratorio: Modelo presa depredador |
+|4| 23/02| Discusión: <br> Teoría: Modelación basada en agentes <br> Práctica: Sincronización de luciérnagas|
+|4| 25/02| Laboratorio: Patrones biológicos|
+|5| 02/03| Discusión: Mathematical games <br> Teoría: Autómatas celulares <br> Práctica: Autómatas celulares|
+|5| 04/03| Laboratorio: Modelo de incendios |
+|6| 09/03| Discusión: <br> Práctica: Teoría evolutiva de juegos|
+|6| 11/03| Laboratorio: Modelo epidemias |
+|7| 18/03| Laboratorio: Simple economy <br> Práctica: Modelo El Farol|
+|8| 23/03| Discusión: How digital media <br> Práctica: Polarización de redes sociales|
+|8| 25/03| Asesoría: Explicación proyecto final |
+|9| 06/04| Discusión: <br> Teoría: Proceso de modelación <br> Práctica: Modelo de tráfico |
+|9| 08/04| Laboratorio: Explorar otros modelos de movilidad |
+|10| 13/04| Discusión: <br> Práctica: Modelo de forrajeo |
+|10| 15/04| Laboratorio: Modelo sistema biológico |
+|11| 20/04| Discución: Algoritmos genéticos <br> Práctica: Algoritmos genéticos|
+|11| 22/04| Laboratorio: Algoritmos genéticos |
+|12| 27/04| Práctica: Modelos basados en agentes en python (opcional) |
+|12| 29/04| Asesoría: Proyecto final |
+|13| 06/05| Asesoría: Proyecto final |
+|14| 13/05| Asesoría: Proyecto final |
+|15| 20/05| Asesoría: Proyecto final |
+|16| 27/05| Presentación proyecto final |    
 
 
 ### Bibliografía
