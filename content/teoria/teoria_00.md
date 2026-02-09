@@ -4,7 +4,7 @@ date = 2024-08-07T00:24:52-06:00
 weight = 10
 +++
 
-# Teoría 0: Primera aproximacion a los modelos basados en agentes
+# Teoría 0: Primera aproximación a los modelos basados en agentes
 
 {{<hint info>}}
 **Contenido:** 3 videos, 1 modelo y 1 cuestionario  
@@ -13,7 +13,7 @@ weight = 10
 
 ## Introducción
 
-En esta primera sesión teórica vamos a dar una primera explicación informal e intuitiva sobre los que son los modelos basados en agentes. Luego veremos cómo se ve un modelo basado en agenetes en acción, lo exploraremos y veremos que tipo de cosas nos pueden enseñar.
+En esta primera sesión teórica vamos a ver una explicación informal e intuitiva de qué son los modelos basados en agentes. Luego veremos cómo se ve un modelo basado en agenetes en acción, lo exploraremos y veremos qué tipo de cosas nos pueden enseñar.
 
 ## Idea intuitiva de los modelos basados en agentes
 
@@ -27,7 +27,7 @@ En esta primera sesión teórica vamos a dar una primera explicación informal e
 
 ### Exploración
 
-Ahora vamos a explorar el modelo de evacuación. Puedes <a href="/curso_MBA/netlogo/evacuacion_AC.nlogo" download>descargar el modelo desde aquí</a> y abrirlo localmente con NetLogo ([aquí puedes descargar NetLogo](https://ccl.northwestern.edu/netlogo/6.4.0/)) o puedes explorarlo en directo en tu navegador con la aplicación web que está aquí abajo o puedes <a href="/curso_MBA/netlogo/evacuacion_AC.html">abrir la aplicación web en otra pestaña</a>. Nota que la versión web de NetLogo es mucho más lenta que la versión de escritorio por lo que te recomendamos siempre usar la versión de escritorio. Además si estás en el navegador de tu celular el modelo correrá aún más lento.
+Ahora vamos a explorar el modelo de evacuación. Puedes <a href="/curso_MBA/netlogo/evacuacion_AC.nlogo" download>descargar el modelo desde aquí</a> y abrirlo localmente con NetLogo o puedes explorarlo en directo en tu navegador con la aplicación <a href="/curso_MBA/netlogo/evacuacion_AC.html">aplicación web</a>. Nota que la versión web de NetLogo es mucho más lenta que la versión de escritorio por lo que te recomendamos siempre usar la versión de escritorio. Además si estás en el navegador de tu celular el modelo correrá aún más lento.
 
 {{<hint info>}} **Reflexiona**  
 Antes de explorar el modelo planteate tus hipótesis.

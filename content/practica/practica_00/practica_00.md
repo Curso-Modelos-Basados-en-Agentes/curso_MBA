@@ -13,25 +13,44 @@ weight = 11
 
 ## Introducción
 
-En este curso vamos a estar usando [NetLogo](https://ccl.northwestern.edu/netlogo/). NetLogo es una plataforma para hacer simulaciones computacionales que utiliza un lenguaje de programación muy sencillo que permite hacer modelos muy complejos de forma rápida. Así mismo, cuando uno crea un modelo con NetLogo también crea directamente una visualización. Esto permitie explorar de forma interactiva los distintos fenómenos de interés. 
+En este curso vamos a estar usando [NetLogo](https://ccl.northwestern.edu/netlogo/). NetLogo es una plataforma para hacer simulaciones computacionales que utiliza un lenguaje de programación muy sencillo que nos permite construir modelos de forma rápida. Una gran ventaja de NetLogo es que al construir un modelo automaticamente creamos una visualización, lo cual nos permite explorar de manera interactiva los fenómenos que estemos estudiando. 
 
-![Logo de NetLogo](/curso_MBA/img/logo-netlogo.jpg)
+![Logo de NetLogo](https://www.netlogo.org/_astro/logo-text.DuTwen5V.svg)
 
 En esta primera práctica vamos a: 
 
 1. instalar NetLogo, 
 2. ver qué es y cómo se usa, 
-3. aprender los fundamentos del lenguaje, 
-4. aprender sobre la historia de NetLogo,
-5. aprender sobre cómo usaremos git y de github para entregar las actividades de programación.
+3. aprender los fundamentos del lenguaje de programación de NetLogo, 
+4. conocer la historia de NetLogo, y
+5. explicar qué son git y github y cómo los utilizaremos en este curso.
 
 ## Instalación de NetLogo
 
-Puedes descargar NetLogo directo desde [la página de descargas en el sitio oficial](https://ccl.northwestern.edu/netlogo/6.4.0/). Existen versiones para todos los sistemas operativos (Mac, Windows y Linux). El archivo que descargues debes poder abrirlo directamente y el progama se instalará en tu computadora (si estás en linux entonces debes extraer el archivo: `tar -xf ARCHIVO.tgz`, y luego correr el archivo ejecutable que se llama `netlogo`).
+Puedes descargar la última verión de NetLogo desde su sitio ofical. Existen versiones para todos los sistemas operativos (no es necesario que llenes el formulario, solo da click en «Descargar»):
+
+- [NetLogo para Mac](https://www.netlogo.org/downloads/mac/)
+- [NetLogo para Windows](https://www.netlogo.org/downloads/windows/)
+- [NetLogo para Linux](https://www.netlogo.org/downloads/linux/)
+ 
+Para Mac y Windows el archivo que descargues debes poder abrirlo directamente y el progama se instalará en tu computadora. Si estás en linux entonces en una consola debes extraer el archivo y correr el instalador indicando un directorio donde quieres instalar el programa:
+
+```shell
+tar -xf ./NetLogo-7.0.3-64.tgz
+cd NetLogo\ 7.0.3/
+./install.sh "~/Apps"
+```
 
 {{<hint info>}} **Versión Web de NetLogo**  
-NetLogo también cuenta con una [versión web](https://www.netlogoweb.org/launch). Esta versión puede ser muy conveniente ya que pueden ejecutar modelos incluso desde un teléfono móvil. Sin embargo, esta versión es más lenta y no incluye todas las opciones que la versión de escritorio. En el curso vamos a revisar solamente cómo usar la version de escritorio. Aunque en ocasiones usaremos la versión web pero solo para explorar modelos.
+
+NetLogo también cuenta con una [versión web](https://www.netlogoweb.org/launch). Esta versión puede ser muy conveniente ya que uno podría ejecutar y crear modelos incluso desde un teléfono móvil. Sin embargo, esta versión es más lenta y no incluye todas las opciones que la versión de escritorio. En el curso vamos a utilizar la version de escritorio, aunque en ocasiones usaremos la versión web para explorar modelos.
 {{</hint>}}
+
+## Aclaración sobre las versiones de NetLogo
+
+A finales de 2025 salió la versión 7.0 de NetLogo. Entre los cambios que hubo se agregó una interfaz de usuario más moderna. En la mayoría de los videos de este curso se utiliza la versión 6.4, la cual tiene la interfaz vieja. No obstante, todos los modelos construidos en la versión 6.4 funcionan tambien para la versión 7.0. Solamente hay pequeños cambios en cómo se agregan y editan elementos en la pestaña de interfaz. En el siguiente video se explican algunos de estos cambios:
+
+{{<youtube id="NUVwH6pc5gI">}}
 
 ## ¿Qué es y cómo se usa NetLogo?
 

@@ -7,7 +7,7 @@ weight = 12
 # Actividad 0
 
 {{<hint info>}}
-**Fecha de entrega:** 16/08/2024  
+**Fecha de entrega:** 15/02/2026  
 **Forma de entrega:** repositorio de github
 {{</hint>}}
 
@@ -47,7 +47,7 @@ end
 	
 	{{<hint info>}}**Tips**  
     1. Construye el comando poco a poco, debes pensar en las intrucciones como si tú fueras la tortuga.  
-	2. Recuerda que cuando estás en el centro de comandos puedes acceder al comando previo usando la flecha hacia arriba de tu teclado, así ya no tienes que escribir tu comando desde cero. Además si no quieres andar picando el botón "setup" a cada rato puedes ponder el setup antes de tu comando: `setup ask turtles [ INSTRUCCIONES ]`.
+	2. Recuerda que cuando estás en el centro de comandos puedes acceder al comando previo usando la flecha hacia arriba de tu teclado (⬆️), así ya no tienes que escribir tu comando desde cero. Además si no quieres andar picando el botón "setup" a cada rato puedes poner el setup antes de tu comando: `setup ask turtles [ INSTRUCCIONES ]`.
 	{{</hint>}}
 
 5. Cuando ya tengas tu comando listo crea un botón en la interfaz que se llame: `escribir_nombre` y en la pestaña de código agrega un procedimiento con el comando que construiste:
@@ -83,7 +83,7 @@ En la segunda parte de la actividad debes crear un modelo de NetLogo que dibuje 
 
 1. Abre un proyecto nuevo de NetLogo.
 2. Crea un botón "setup" que inicialice tu modelo.
-3. En la pestaña de cógido crea el procedimiento setup. Aquí tu puedes crear las condiciones iniciales que tu quieras. Por ejemplo para crear varias tortugas listas para dibujar en posiciones aleatorias podrías usar el siguiente procedimiento:
+3. En la pestaña de código crea el procedimiento setup. Aquí puedes crear las condiciones iniciales que quieras. Por ejemplo, para crear varias tortugas listas para dibujar en posiciones aleatorias podrías usar el siguiente procedimiento:
 ```lisp
 to setup
   clear-all
