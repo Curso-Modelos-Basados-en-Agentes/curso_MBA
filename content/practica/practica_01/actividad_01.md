@@ -7,7 +7,7 @@ weight = 22
 # Actividad 1
 
 {{<hint info>}}
-**Fecha de entrega:** 24/08/2024  
+**Fecha de entrega:** 22/02/2026  
 **Forma de entrega:** repositorio de github
 {{</hint>}}
 
@@ -18,11 +18,11 @@ Esta actividad está asociada a la Práctica 1.
 En la Práctica 1 exploramos un modelo de segregación donde sólo hay 2 grupos. ¿Qué pasa cuando hay más de 2 grupos?
 
 1. Crea una copia de tu script del modelo de la práctica que se llame `segregacion_multiples_grupos.nlogo`.
-2. Modifica el código del modelo para que tengas más de 3 (o más grupos si quieres).
-3. Opcional: has que un usuario del modelo pueda seleccionar desde la interfaz el número de grupos que quiera. Es decir, agrega un slider con el que uno pueda seleccionar el número de grupos que se crean en el modelo y modifica el código para que este funcione.
+2. Agrega un slider con el que se pueda seleccionar el número de grupos que se crean en el modelo y modifica el código para que este funcione.
+3. Explora que pasa y escribe un pequeño párrafo con tus observaciones (agrégalo a un archivo que se llame `observaciones.md`).
 
 {{<hint info>}}**Tip**  
-Para ayudarte puedes consultar la [documentación oficial de NetLogo](https://ccl.northwestern.edu/netlogo/docs/dictionary.html). También puedes pedirle ayuda a chatgpt, aunque nota que no es tan chido con NetLogo como lo es con otros lenguajes de programación (ya que NetLogo no es muy popular no tiene mucho con qué aprender).
+Para ayudarte puedes consultar la [documentación oficial de NetLogo](https://ccl.northwestern.edu/netlogo/docs/dictionary.html). También puedes pedirle ayuda a chatgpt o una IA, aunque nota que muchas IAs no son tan chidas con NetLogo como lo son con otros lenguajes de programación (ya que NetLogo no es muy popular, por lo que los modelos de lenguaje no tiene mucho con qué aprender).
 {{</hint>}}
 
 ## Parte 2: Grupos con diferentes preferencias
@@ -31,6 +31,7 @@ En la Práctica 1 exploramos un modelo donde todos los agentes sin importar su g
 
 1. Crea una copia de tu script del modelo de la práctica que se llame `segregacion_diferentes_preferencias.nlogo` (usa el modelo con solo 2 grupos, no el que hagas en la parte 1)
 2. Modifica el modelo para que cada grupo tenga una preferencia distinta. En lugar de tener un solo parámetro `preferencia` puedes crea: `preferencia_1` y `preferencia_2`, que controlen la preferencia de cada grupo. 
+3. Explica qué pasa y escribe un breve párrafo con tus observaciones (agrégalo a un archivo que se llame `observaciones.md`).
 
 ## Entrega
 
@@ -38,6 +39,7 @@ En tu repositorio crea una carpeta que se llame `actividad_01`. Esta carpeta deb
 
 1. el archivo `segregacion_multiples_grupos.nlogo` con tu ejercicio de la parte 1, y
 2. el archivo `segregacion_diferentes_preferencias.nlogo` con tu ejericio de la parte 2.
+3. el archivo `observaciones.md` con tus observaciones de explorar los modelos.
 
 Recuerda que para registrar tus cambios en el repositiorio de git y subirlo a github debes hacer los siguientes comandos desde la carpeta de tu repositorio
 
