@@ -7,7 +7,7 @@ weight = 30
 # Teoría 2: ¿Qué es la modelación basada en agentes?
 
 {{<hint info>}}
-**Contenido:** 6 videos, 1 modelo y 1 tarea  
+**Contenido:** 6 videos, 1 modelo y 1 cuestionario  
 **Duración estimada:** 55 minutos
 {{</hint>}}
 
@@ -39,6 +39,6 @@ En esta sesión vamos a ver con más detalle qué es la modelación basada en ag
 
 {{<youtube S5t2DCXZbik>}}
 
-{{<hint warning>}} **Tarea**  
-Esta sesión teórica tiene asociada una tarea que está disponible en el aula virtual del curso.
+{{<hint warning>}} **Cuestionario**  
+Esta sesión teórica tiene asociado un cuestionario está disponible en el aula virtual del curso.
 {{</hint>}}
