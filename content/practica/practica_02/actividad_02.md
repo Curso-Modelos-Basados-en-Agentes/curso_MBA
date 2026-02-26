@@ -23,7 +23,7 @@ $$ H = - \sum_i  p_i \log_2 p_i  $$
 
 donde \\(p_i\\) es la probabilidad del estado \\(i\\). Esto lo podemos aplicar a nuestro sistema de luciérnagas, en este contexto tenemos dos posibles estados: (1) prendido y (2) apagado. Así \\(p_1\\) puede representar la fracción de luciérnagas prendidas y \\(p_2\\) la fracción de luciérnagas apagadas.  Conforme las luciérnagas se sincronizan, ¿cómo esperamos que cambie la entropía de Shannon?
 
-1. En tu simulador que construiste en la Práctica 1 crea una gráfica que muestre cómo cambia la entropía de Shannon.
+1. En tu simulador de sincronización de luciérnagas que construiste en la Práctica 2 crea una gráfica que muestre cómo cambia la entropía de Shannon.
 2. Explora que pasa y escribe un pequeño párrafo con tus observaciones (agrégalo a un archivo que se llame `observaciones.md`).
 
 {{<hint info>}} **Tips**
