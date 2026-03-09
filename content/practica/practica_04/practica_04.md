@@ -1,73 +1,75 @@
 +++
-title = 'Práctica 4'
-date = 2024-09-12T20:00:55-06:00
-weight = 52
+title = 'Práctica 5'
+date = 2024-09-20T13:54:16-06:00
+weight = 62
 +++
 
-# Práctica 4: Ciclos intransitivos
+# Práctica 5: Teoría evolutiva de juegos 
 
 {{<hint info>}}
-**Contenido:** 9 videos  
+**Contenido:** 10 videos  
 **Duración estimada:** 1 hora 40 minutos
 {{</hint>}}
 
-## Introducción
+## Introducción 
 
-En esta práctica vamos ver cómo los modelos de autómatas se pueden aplicar para estudiar fenómenos ecológicos. En particular vamos a estudiar un sistema de competencia intransitiva. El ejemplo mejor conocido de este tipo de sistemas es el juego de «Piedra, papel o tijeras» (también conocido como modelo RSP, por sus siglas en ingles: Rock-Scissors-Paper).
+En esta práctica vamos a construir dos modelos para estudiar algunos resultados básicos de la teoría evolutiva de juegos. En particular exploramos qué pasa con el famoso "dilema del prisionero" cuando lo estudiamos desde la perspectiva de la teoría evolutiva de juegos. 
 
-En esta práctica primero como motivación repasamos algunos resultados básicos de los modelos de competencia en y el estudio de la coexsitencia entre especies en la ecología. Luego construimos un primer modelo estocástico básico de invasiones basado en el modelo RSP. Posteriormente modificamos nuestro modelo para integrar el efecto de la mobilidad y construir una vesión del modelo que se presenta en el artículo [Mobility promotes and jeopardizes biodiversity in rock–paper–scissors games](https://www.nature.com/articles/nature06095). Finalmente modificamos nuestro modelo para mejorar su eficiencia y hacer que evolucione más rápido.
+En esta práctica primero explicamos el "dilema del prisionero", luego introducimos qué es la teoría evolutiva de juegos. Posteriormente consturimos dos modelos para de la teoría evolutiva de juegos, un primer modelo sin estructura espacial donde todos los jugadores interactuan con todos los otros jugadores y luego implementamos en su versión espacializada donde los jugadores solo interacutan con su localidad. Este modelo tiene propiedades muy interesantes.
 
-## Competencia y el Principio de exclusión competitiva
+Los modelos que se consturen en esta práctica se presentan en las partes II y III del libro abierto y libre: [«Agent-Based Evolutionary Game Dynamics»](https://wisc.pb.unizin.org/agent-based-evolutionary-game-dynamics/).
 
-{{<youtube id="x1gxlcc5wnQ">}}
+## Dilema del prisionero
 
-Aquí puedes explorar el modelo de competencia Lotka-Volterra. Puedes <a href="/curso_MBA/netlogo/competencia-LV.nlogo" download> descargar el modelo desde aquí </a> y abrirlo localmente con NetLogo, o explorarlo en el navegador con la aplicación web de abajo o <a href="/curso_MBA/netlogo/competencia-LV.html">abrir la aplicación web en otra pestaña</a>. 
+{{<youtube id="Hp7EQ8bMWOw">}}
 
-<iframe src="/curso_MBA/netlogo/competencia-LV.html" width="100%" height="600"></iframe>
+## Teoría evolutiva de juegos
 
-## Ciclos intransitivos y mobilidad
+{{<youtube id="oP918vu6ANk">}}
 
-{{<youtube id="CcHtEtzzF7Q">}}
-
-## Parte 1: Modelo de invasión
+## Parte 1: Modelo de población bien mezcladas
 
 ### Explicación del modelo
 
-{{<youtube id="_rrO4ZElsJI">}}
+{{<youtube id="tzqW24EPyTY">}}
 
-### Implementación del modelo
+### Procedimiento setup
 
-{{<youtube id="DWmhM6y09vg">}}
+{{<youtube id="TPOmZOZa7Pg">}}
 
-{{<hint warning>}} **Cuestionario**  
-Esta sesión práctica tiene asociado un cuestionario que está disponible en el aula virtual del curso. El cuestionario utiliza este modelo por lo que te conviene resolverlo antes de continuar con la práctica.
-{{</hint>}}
+### Procedimiento go
 
-## Parte 2: Modelo de selección, reproducción y mobilidad
-
-{{<hint danger>}} **¡Guarda una copia de tu modelo antes de continuar!**  
-Antes de continuar con la parte 2 guarda una copia de tu modelo de la parte 1 ya que ese modelo se usa en el cuestionario asociado a la prácitica y se pide que lo subas como evidencia en la Actividad asociada.
-{{</hint>}}
-
-### Explicación del modelo
-
-{{<youtube id="WUciE7lGyKE">}}
-
-### Implementación del modelo
-
-{{<youtube id="LpN4q4OyfN4">}}
+{{<youtube id="vD4qkyv6dyA">}}
 
 ### Exploración del modelo
 
-{{<youtube id="PT68OPcwugA">}}
+{{<youtube id="29e6-iqwz1o">}}
 
-### Explicación de como mejorar la eficiencia del modelo
+{{<hint info>}}**Explora el modelo**  
+Un juego clásico en la teoría evolutivas de juegos es el [juego de la gallina o el juego del halcón y la paloma](https://en.wikipedia.org/wiki/Chicken_(game)). Introduce una matríz de pagos que cumpla las condiciones de este juego y explora qué pasa. ¿Cuál es la estrategia evolutivamente estable para este juego? ¿La paloma (comportarse como "gallina") o el halcón ("hacerse el valiente")?
+{{</hint>}}
 
-{{<youtube id="X4FVb4DNKc0">}}
+## Parte 2: Modelo con estructura espacial
 
-### Mejorar la eficiencia del modelo
+### Explicación del modelo
 
-{{<youtube id="twLEm38przE">}}
+{{<youtube id="y7gm6yHXt5c">}}
+
+### Procedimiento setup
+
+{{<youtube id="jeROWXwYueA">}}
+
+### Procedimiento go
+
+{{<youtube id="EWHKcY7MeAw">}}
+
+### Exploración del modelo
+
+{{<youtube id="JG_d-icd4Ks">}}
+
+{{<hint info>}} **Para saber más...**
+Aquí puedes consultar [el artículo que se menciona en el video](https://www.nature.com/articles/359826a0.pdf).
+{{</hint>}}
 
 {{<hint warning>}} **Cuestionario**  
 Esta práctica tiene asociado un cuestionario está disponible en el aula virtual del curso.

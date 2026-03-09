@@ -7,7 +7,7 @@ weight = 43
 # Actividad 3
 
 {{<hint info>}}
-**Fecha de entrega:** 14/09/2024  
+**Fecha de entrega:** 09/03/2026  
 **Forma de entrega:** repositorio de github
 {{</hint>}}
 
@@ -31,14 +31,14 @@ Las últimas dos reglas que son iguales pueden ocurrir en cualquier orden o hace
 
 Con estas tres reglas sencillas podemos obtener una simulación básica del elemento arena. En [sandspiel studio](https://studio.sandspiel.club/) uno puede ver las reglas detrás de cada elemento en un editor muy amigable tipo "scratch" (asegurate de abrir el editor: "Open Editor"). En el editor puedes crear tus propias reglas.
 
-El objetivo de esta práctica es que crees un autómata que se comporte como la "arena" (si quieres implementar otros elementos adelante, es un reto interesante).
+En esta segunda parte de la actividad debes implementar un autómata que se comporte como la "arena" (si quieres implementar otros elementos adelante, es un reto interesante).
 
 ## Entrega
 
 En tu repositorio crea una carpeta que se llame `actividad_03`. Esta carpeta debe incluir:
 
-1. el archivo `otro_automata.nlogo` con la implementación del autómata celular que elegiste en la parte 1, y
-2. el archivo `falling-sand.nlogo` con la implementación de tu "falling sand simulator" de la parte 2 de la actividad.
+1. el archivo `otro_automata.nlogox` con la implementación del autómata celular que elegiste en la parte 1, y
+2. el archivo `falling-sand.nlogox` con la implementación de tu "falling-sand simulator" de la parte 2 de la actividad.
 
 Recuerda que para registrar tus cambios en el repositiorio de git y subirlo a github debes hacer los siguientes comandos desde la carpeta de tu repositorio
 

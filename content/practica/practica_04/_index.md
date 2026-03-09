@@ -1,5 +1,5 @@
 ---
-title: "4. Ciclos intransitivos"
+title: "5. Teoría evolutiva de juegos"
 bookCollapseSection: true
-weight: 50
+weight: 60
 ---
