@@ -1,13 +1,13 @@
 +++
-title = 'Actividad 5'
+title = 'Actividad 4'
 date = 2024-09-21T11:44:30-06:00
 weight = 63
 +++
 
-# Actividad 5
+# Actividad 4
 
 {{<hint info>}}
-**Fecha de entrega:** 29/09/2024  
+**Fecha de entrega:** 16/03/2026  
 **Forma de entrega:** repositorio de github
 {{</hint>}}
 
@@ -15,10 +15,10 @@ En esta actividad sólo debes subir a tu repositorio de github tu código que hi
 
 ## Entrega
 
-En tu repositorio crea una carpeta que se llame `actividad_05`. Ensta carpeta debe incluir:
+En tu repositorio crea una carpeta que se llame `actividad_04`. Ensta carpeta debe incluir:
 
-1. el archivo `teoria_evolutiva_de_juegos.nlogo` con tu código de la parte 1 de la práctica 5.
-2. el archivo `automata_dilema_prisionero.nlogo` con tu código de la parte 2 de la práctica 5.
+1. el archivo `teoria_evolutiva_de_juegos.nlogox` con tu código de la parte 1 de la práctica 5.
+2. el archivo `automata_dilema_prisionero.nlogox` con tu código de la parte 2 de la práctica 5.
 
 Recuerda que para registrar tus cambios en el repositiorio de git y subirlo a github debes hacer los siguientes comandos desde la carpeta de tu repositorio
 

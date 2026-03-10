@@ -1,5 +1,5 @@
 ---
-title: "5. Teoría evolutiva de juegos"
+title: "4. Teoría evolutiva de juegos"
 bookCollapseSection: true
-weight: 60
+weight: 50
 ---

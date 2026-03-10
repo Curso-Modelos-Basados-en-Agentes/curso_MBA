@@ -1,10 +1,10 @@
 +++
-title = 'Práctica 4'
+title = 'Práctica 5'
 date = 2024-09-12T20:00:55-06:00
 weight = 52
 +++
 
-# Práctica 4: Ciclos intransitivos
+# Práctica 5: Ciclos intransitivos
 
 {{<hint info>}}
 **Contenido:** 9 videos  
