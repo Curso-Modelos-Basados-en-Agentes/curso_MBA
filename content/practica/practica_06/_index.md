@@ -1,5 +1,5 @@
 ---
-title: "6. Autoorganización Bali"
+title: "6. Polarización redes sociales"
 bookCollapseSection: true
 weight: 70
 ---

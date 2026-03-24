@@ -1,65 +1,62 @@
 +++
 title = 'Práctica 6'
-date = 2024-10-01T10:14:34-06:00
+date = 2024-10-12T09:10:16-06:00
 weight = 72
 +++
 
-# Práctica 6: Autoorganización de los arrozales de Bali
+# Práctica 6: Polarización en redes sociales
 
 {{<hint info>}}
-**Contenido:** 10 videos  
+**Contenido:** 9 videos  
 **Duración estimada:** 1 hora 52 minutos
 {{</hint>}}
 
 ## Introducción
 
-En esta práctica vamos a ver una aplicación de un modelo de autómatas celulares para estudiar la autoorganización eun socio-ecosistema. En particular vamos a repoducir los resultados del artículo [Adaptive self-organization of Bali’s ancient rice terraces](https://www.pnas.org/doi/abs/10.1073/pnas.1605369114) que discutimos en clase. 
+En esta práctica vamos a reporducir el modelo que se presenta en el artículo [How digital media drive affective polarization through partisan sorting](https://www.pnas.org/doi/epdf/10.1073/pnas.2207159119), el cual discutimos en clase. 
 
-Primero les dejo un video donde se explica el contexto del sistema que se estudia. Posteriormente reproducimos el modelo en NetLogo. Y finalmente analizamos los resultados del modelo en python para verificar que nuestro modelo reproduce sus resultados. 
+Primero les dejo (de nuevo) un video que resume las ideas principales de cómo surge la polarización en las redes sociales. Posteriormente implementamos el modelo en NetLogo. Después hacemos experimentos y generamos datos de nuestro modelo usando el [Behaviour Space de Netlogo](https://ccl.northwestern.edu/netlogo/docs/behaviorspace.html). Finalmente analizamos esos datos para reproducir los principales resultados de los autores. 
 
-## Los arrozales en Bali
+## La polarización y las redes sociales
 
-En este video Stephen Lansing, el auto principal del trabajo, explica el contexto de los arrozales de Bali. Así mismo presenta los resultados de un [modelo basado en agentes publicado previamente en 1993](http://www.islandsoforder.com/uploads/4/3/4/1/43417789/lansing_1993_amanthropol_v95_p97.pdf).
+En este video se resumen algunas de las hipótesis que los sociólogos han desarrollado para explicar cómo surge la polarización. 
 
-{{<youtube id="kZLLGCaz74M">}}
+{{<youtube id="fuFlMtZmvY0">}}
 
 ## Explicación del modelo
 
-{{<youtube id="oGRm16GNLlc">}}
+{{<youtube id="l4csyRo8UKs">}}
 
-## Procedimiento `setup`
+## Procedimiento `setup` (parte 1)
 
-{{<youtube id="azPDUzTPIqs">}}
+{{<youtube id="CEd0EIXi_Fo">}}
 
-## Procedimiento `go`
+## Procedimiento `setup` (parte 2)
 
-{{<youtube id="KDz_n27_bg8">}}
+{{<youtube id="iPe1YsDf6t0">}}
 
-## Mejorar la eficiencia del modelo
+## Procedimiento `go` 
 
-{{<youtube id="CKD5cEXfnII">}}
+{{<youtube id="8Dk8eXEU1N8">}}
 
 ## Exploración del modelo
 
-{{<youtube id="MGjbf2rbU_8">}}
+{{<youtube id="PzsKMJ-RhgU">}}
 
-## Ley de potencias
+## Gráfica de polarización
 
-{{<youtube id="87hshWKfoN0">}}
+{{<youtube id="kAuNmKI2V74">}}
 
-## Procesamiento de imágenes
+## Experimentos en Behavior Space
 
-{{<youtube id="oYLvsTA7e_w">}}
+{{<youtube id="pp3hu-kPi9k">}}
 
-## Construcción de histogramas
+## Análisis de datos
 
-{{<youtube id="DSkbhwTsNX0">}}
+{{<youtube id="dBQAQPjDNSw">}}
 
-## Comparación con otros regímenes
+## Análisis de la dinámica
 
-<a href="/curso_MBA/python/analisis_bali_multiple.py" download>Aquí puedes descargar el script</a> que se utiliza en el video.
+<a href="/curso_MBA/R/dinamica_polarizacion.R" download>Aquí puedes descargar el script</a> que se utiliza en el video.
 
-{{<youtube id="qOSKecU9g9o">}}
-
-
-
+{{<youtube id="7KiOgeBFnoc">}}

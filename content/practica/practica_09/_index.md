@@ -1,5 +1,5 @@
 ---
-title: "9. Algoritmos genéticos"
+title: "9. Autoorganización Bali"
 bookCollapseSection: true
 weight: 100
 ---

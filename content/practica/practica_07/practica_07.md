@@ -1,62 +1,62 @@
 +++
 title = 'Práctica 7'
-date = 2024-10-12T09:10:16-06:00
-weight = 82
+date = 2024-10-18T10:43:49-06:00
+weight = 92
 +++
 
-# Práctica 7: Polarización en redes sociales
+# Práctica 7: Modelo de tráfico
 
 {{<hint info>}}
-**Contenido:** 9 videos  
-**Duración estimada:** 1 hora 52 minutos
+**Contenido:** 6 videos  
+**Duración estimada:** 1 hora 2 minutos 
 {{</hint>}}
+
 
 ## Introducción
 
-En esta práctica vamos a reporducir el modelo que se presenta en el artículo [How digital media drive affective polarization through partisan sorting](https://www.pnas.org/doi/epdf/10.1073/pnas.2207159119), el cual discutimos en clase. 
+¿Cómo es que se forma el tráfico? En esta práctica vamos a construir y explorar un modelo sobre la formación de tráfico. En este modelo vamos a explorar que pasa cuando ponemos a varios carros a moverse en una dimensión permitiendo que cambien su aceleración para evitar chocar. En este sencillo fenómeno encontraremos algunas propiedades características de los sistemas complejos como las propiedades emergentes y los puntos críticos.
 
-Primero les dejo (de nuevo) un video que resume las ideas principales de cómo surge la polarización en las redes sociales. Posteriormente implementamos el modelo en NetLogo. Después hacemos experimentos y generamos datos de nuestro modelo usando el [Behaviour Space de Netlogo](https://ccl.northwestern.edu/netlogo/docs/behaviorspace.html). Finalmente analizamos esos datos para reproducir los principales resultados de los autores. 
+## Presentación y definición del modelo
 
-## La polarización y las redes sociales
+{{<youtube id="NyJ8hz7VmoA">}}
 
-En este video se resumen algunas de las hipótesis que los sociólogos han desarrollado para explicar cómo surge la polarización. 
+## Procedimiento `setup`
 
-{{<youtube id="fuFlMtZmvY0">}}
+{{<youtube id="nE3tVM4kNec">}}
 
-## Explicación del modelo
+## Procedimiento `go`
 
-{{<youtube id="l4csyRo8UKs">}}
+{{<youtube id="9Di1n-GE7X0">}}
 
-## Procedimiento `setup` (parte 1)
+## Visualización y gráficas
 
-{{<youtube id="CEd0EIXi_Fo">}}
+{{<youtube id="vZqQdSQK0BA">}}
 
-## Procedimiento `setup` (parte 2)
+{{<hint warning>}}**Explora el modelo**
 
-{{<youtube id="iPe1YsDf6t0">}}
+- Pon los valores de `aceleracion` y `desaceleracion` en valores de 0.0045 y 0.026, respectivamente, y explora que pasa cuando modificas el parámetro `numero-de-carros`. ¿Cuál es la velocidad máxima, mínimima y velocidad del auto muestra cuando tienes pocos autos? ¿Qué pasa conforme aumentas el número de autos?
+- Pon el valor de `numero-de-autos` en 20 y el de `aceleracion` en 0.0045. Pon el valor de `desaceleracion` en 0 y ve subiéndolo poco a poco. ¿Qué significa que el valor de `desaceleracion` sea 0? ¿Qué pasa conforme aumenta el valor de `desaceleracion`?
+{{</hint>}}
 
-## Procedimiento `go` 
+## Pertrubaciones
 
-{{<youtube id="8Dk8eXEU1N8">}}
+{{<youtube id="Yg2SLN-thK4">}}
 
-## Exploración del modelo
+{{<hint warning>}}**Explora el modelo**
 
-{{<youtube id="PzsKMJ-RhgU">}}
+¿Qué pasa cuando aumentas el tamaño de la perturbación? Pon el parámetro `numero-de-carros` en 18 y pon que la posicion y velocidad inicial sean homogeneas. Aumenta el tamaño de la perturbación dando click muchas veces seguidas en el botón `perturbación`. ¿Para qué cantidad de autos el disturbio logra desaparecer?
 
-## Gráfica de polarización
+{{</hint>}}
 
-{{<youtube id="kAuNmKI2V74">}}
+## Tráfico fantasma y propiedades emergentes
 
-## Experimentos en Behavior Space
+{{<youtube id="dikGpjcegRU">}}
 
-{{<youtube id="pp3hu-kPi9k">}}
+{{<hint info>}}**Material complementario**
 
-## Análisis de datos
+Si les interesa saber más sobre el tráfico fantasma pueden consultar [el artículo donde se describe el experimento](https://iopscience.iop.org/article/10.1088/1367-2630/15/10/103034/pdf) y los siguientes videos:
+- [Video: ¿Cómo se forman los atascos de tráfico en nuestras carreteras? Tu eres el culpable](https://www.youtube.com/watch?v=z2_1sfbHbgY)
+- [Video: Why the @#$% is there so much traffic?](https://www.youtube.com/watch?v=TNokBgtSUvQ&themeRefresh=1)
+- [Video: The Simple Solution to Traffic](https://www.youtube.com/watch?v=iHzzSao6ypE)
 
-{{<youtube id="dBQAQPjDNSw">}}
-
-## Análisis de la dinámica
-
-<a href="/curso_MBA/R/dinamica_polarizacion.R" download>Aquí puedes descargar el script</a> que se utiliza en el video.
-
-{{<youtube id="7KiOgeBFnoc">}}
+{{</hint>}}

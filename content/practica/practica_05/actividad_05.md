@@ -29,7 +29,7 @@ Además del ejercicio de la parte 1 debes subir tu código que hiciste de la Pr�
 
 ## Entrega
 
-En tu repositorio crea una carpeta que se llame `actividad_03`. Ensta carpeta debe incluir:
+En tu repositorio crea una carpeta que se llame `actividad_05`. Ensta carpeta debe incluir:
 
 1. el archivo `automata_RSP.nlogo` con ejercicio de la parte 1 de la actividad
 2. el archivo `modelo_RSP_01.nlogo` con tu código de la parte 1 de la práctica

@@ -1,42 +1,47 @@
 +++
 title = 'Actividad 9'
-date = 2024-10-24T11:22:20-06:00
-weight = 102
+date = 2024-10-01T11:04:27-06:00
+weight = 73
 +++
 
 # Actividad 9
- 
+
 {{<hint info>}}
-**Fecha de entrega:** 5/11/2024  
+**Fecha de entrega:** 12/10/2024  
 **Forma de entrega:** repositorio de github
 {{</hint>}}
 
-Esta actividad está asociada a la Práctica 9. Puedes elegir solo hacer una de las dos opciones para esta actividad (o puedes hacer las dos si quieres).
+Esta actividad está asociada a la Práctica 9.
 
-## Opción 1: Extiende el modelo
+## Parte 1: Comparar las distribuciones de distintos regímenes
 
-El objetivo de esta opción de la actividad es que modifiques de alguna manera el modelo que construimos. Existen muchas posibles modificaciones desde algunas muy simples a otras más complejas. Algunas ideas de lo que puedes hacer es:
+En esta primera parte de la práctica debes crear las gráficas de las distribuciones para distintos parámetros como se muestra en la última parte de la práctica. Compara 5 imágenes distintas (intenta poner 2 del regimen que genera vecindades muy pequeñas, 2 del regimen de cuadrantes y una de la zona intermedia donde {{<katex>}}20 a \approx b{{</katex>}}). Modifica el <a href="/curso_MBA/python/analisis_bali_multiple.py" download>código del script</a> para cambiar el tamaño de la gráfica y que se vean bien las imágens. Tambien puedes cambiar a tu gusto la gráfica para enchularla. Para exportar tu imagen puedes usar el comando [plt.imsave( )](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imsave.html).
 
-1. modifica la posición de la fuente de alimento para ver si los agentes aprenden a moverse a un lugar en específico
-2. implementa otro operador genético como el entrecruzamiento (i.e., haz que los hijos tengan dos padres y que su genotipo sea una mezcla del de sus padres) 
-3. haz que los depredadores también evolucionen con una red neuronal
+## Parte 2: Implementa otras formas de decidir el itinerario
 
-En la pestaña de info de tu modelo explica brevemente cuál es la modificacion que le hiciste al modelo. 
+En la figura 3 del artículo se muestra una gráfica que compara la cosecha obtenida usando diferentes reglas para decidir el itinerario que se va a usar en la siguiente iteración. Las relgas de decision que comparan los autores son las siguentes:
 
-Además debes crear un giff de tu simulación como se explica en la última parte de la Práctica 9.
+1. *máximo*, una celda copia el itinerario de uno de sus cuatro vecinos que obtuvo la mayor cosecha (esta es la que implementamos en el modelo)
+2. *aleatorio*, una celda elige al azar uno de los 4 itinerario
+3. *mayoría*, una celda elige uno de los itinerarios que usan la mayoría de sus cuatro vecinos (e.g., si 3 vecinos son del itinerario rojo entonces les copia; si 2 son rojo y 2 verde elige uno al azar).
+4. *minoría*, una celda elige el itinerario que menos sea usado por sus cuatro vecinos (e.g., si 3 vecinos son del itinerario rojo entonces elijo uno de los otros 3 al azar; si 2 son verdes, 1 rojo y 1 amarillo, elijo azul, etc)
 
-## Opción 2: Diseña un algoritmo de búsqueda y compara su desempeño con respecto al evolucionado
+En esta parte de la práctica debes implementar estas reglas de decision. Crea un "chooser" en la interaz para seleccionar la regla de decision como se muestra en la siguiente figura. También incluye una gráfica que muestre cómo cambia la cosecha promedio de las celdas {{<katex>}}H{{</katex>}} en el tiempo se muestra en la figura de abajo.
 
-Los algoritmos genéticos a veces pueden generar soluciones poco intuitivas que pueden ser más eficientes que las diseñadas por nosotros. El objetivo de esta segunda opción de actividad es que tu diseñes una estrategia que sigan todas las tortugas para alimentarse y sobrevivir. Por ejemplo, puedes ordenarle a las torutgas que camien de manera aleatoria y si ven comida se dijan hacia ella y si ven un depredador se alejen de él. ¿Qué tan eficiente crees que sea esta estrategia? 
+![intefaz actividad 6](/curso_MBA/img/interfaz_actividad_06.png)
 
-Modifica el modelo para que tu puedas elegir si ejecuta las estrategias buscadas por el algoritmo genético o la estrategia que tu diseñes e implementes. Compara el desempeño de tu estrategia y las que encuentre el algoritmo genético (deja que evolucione por suficiente tiempo, al menos unas 50 iteracciones). Recuerda que debes compararlas con las mismas condiciones. Algunas formas en cómo puedes comparar el desempeño de una y otra estrategia es viendo cuanta energia obtienen (su adecución) o viendo cuanto alimento del total es consumido. En la pestaña de Info describe brevemente tu algoritmo y discute cómo fue su desempeño en comparación con uno que obtengas después de correr tu algoritmo genético por varias generaciones.
+{{<hint info>}}**Tip**  
+Revisa la [documentación de NetLogo](https://ccl.northwestern.edu/netlogo/docs/dictionary.html). Puedes ayudarte de las siguientes funciones:
+- [`mean`](https://ccl.northwestern.edu/netlogo/docs/dictionary.html#mean)
+- [`modes`](https://ccl.northwestern.edu/netlogo/docs/dictionary.html#modes)
+{{</hint>}}
 
 ## Entrega
 
 En tu repositorio crea una carpeta que se llame `actividad_09`. En esta carpeta debe incluir:
 
-1. el archivo `algoritmo_genetico.nlogo` con tu extensión del modelo (si elegiste la opción 1) o con tu implementación de algoritmo diseñado (si elegiste la opción 2), y
-2. (si elegiste la opción 1) el archivo `extension.gif` con un gif que muestre cómo evolucionan los organismos en tu simulación. 
+1. la imagen `comparacion_regimenes.png` con el ejercicio de la parte 1 de la actividad
+2. el archivo `modelo_arrozales_bali.nlogo` con tu código de la parte 2 de la práctica
 
 Recuerda que para registrar tus cambios en el repositiorio de git y subirlo a github debes hacer los siguientes comandos desde la carpeta de tu repositorio
 

@@ -1,62 +1,159 @@
 +++
 title = 'Práctica 8'
-date = 2024-10-18T10:43:49-06:00
-weight = 92
+date = 2024-10-24T10:23:20-06:00
+weight = 101
 +++
 
-# Práctica 8: Modelo de tráfico
+# Práctica 8: Algoritmos genéticos
 
 {{<hint info>}}
-**Contenido:** 6 videos  
-**Duración estimada:** 1 hora 2 minutos 
+**Contenido:** 11 videos  
+**Duración estimada:** 2 horas 6 minutos 
 {{</hint>}}
-
 
 ## Introducción
 
-¿Cómo es que se forma el tráfico? En esta práctica vamos a construir y explorar un modelo sobre la formación de tráfico. En este modelo vamos a explorar que pasa cuando ponemos a varios carros a moverse en una dimensión permitiendo que cambien su aceleración para evitar chocar. En este sencillo fenómeno encontraremos algunas propiedades características de los sistemas complejos como las propiedades emergentes y los puntos críticos.
+En esta práctica vamos a evolucionar a una población de tortugas usando un algoritmo genético y redes neuronales. Primero se explican brevemente los fundamentos de la evolución biológica, los algoritmos genéticos y las redes neuronales. Y luego se implementa el modelo explorando 3 condiciones distintas.
 
-## Presentación y definición del modelo
+{{<hint info>}}
+Esta práctica esta basada en modelos como los siguientes:
+- [Video: I programmed some creatures. They Evolved.](https://www.youtube.com/watch?v=N3tRFayqVtk)
+- [Video: Evolving AIs - Predator vs Prey, who will win?](https://www.youtube.com/watch?v=qwrp3lB-jkQ)
+- [Video: AI Learns to Solve Obstacle Course (Neuroevolution)](https://www.youtube.com/watch?v=9Zk_hY_CjiE)
+- [Página: Smart Rockets](https://shivank1006.github.io/Smart-Rockets/)
+{{</hint>}}
 
-{{<youtube id="NyJ8hz7VmoA">}}
+## Teoría de la evolución
+
+{{<youtube id="HhgWOet6Ark">}}
+
+## Explicación de los algoritmos genéticos
+
+{{<youtube id="cycyWEIDp-0">}}
+
+## Redes neuronales artificiales
+
+{{<youtube id="a3818LdTILY">}}
+
+## Explicación del modelo
+
+{{<youtube id="dEbGWL6wBa8">}}
 
 ## Procedimiento `setup`
 
-{{<youtube id="nE3tVM4kNec">}}
+{{<youtube id="VMKVsqhyFCk">}}
 
-## Procedimiento `go`
+## Funciones de entrada y salida
 
-{{<youtube id="9Di1n-GE7X0">}}
+{{<youtube id="iLAcRZsO5wo">}}
 
-## Visualización y gráficas
+## Movimiento y construcción de redes neuronales 
 
-{{<youtube id="vZqQdSQK0BA">}}
+{{<youtube id="Pah5J-pcq00">}}
 
-{{<hint warning>}}**Explora el modelo**
+Para ver cómo es la red neurnal de una tortuga puedes usar el siguiente comando, que retorna una lista como la del genotipo pero en lugar de solo poner los índices de las listas de funciones de entradas y salidas pone los nombres de las funciones.
 
-- Pon los valores de `aceleracion` y `desaceleracion` en valores de 0.0045 y 0.026, respectivamente, y explora que pasa cuando modificas el parámetro `numero-de-carros`. ¿Cuál es la velocidad máxima, mínimima y velocidad del auto muestra cuando tienes pocos autos? ¿Qué pasa conforme aumentas el número de autos?
-- Pon el valor de `numero-de-autos` en 20 y el de `aceleracion` en 0.0045. Pon el valor de `desaceleracion` en 0 y ve subiéndolo poco a poco. ¿Qué significa que el valor de `desaceleracion` sea 0? ¿Qué pasa conforme aumenta el valor de `desaceleracion`?
-{{</hint>}}
+```
+to-report obtener-fenotipo
+  let fenotipo []
+  foreach genotipo [
+    gen ->
+    let entrada (item (item 0 gen) entradas-red)
+    let salida (item (item 1 gen) salidas-red)
+    let peso (item 2 gen)
+    set fenotipo lput (list entrada salida peso) fenotipo
+  ]
+  report fenotipo
+end
+```
 
-## Pertrubaciones
+Con esta función, luego puedes pedirle a una tortuga que muestre cómo es su red neurnal en el Command Center:
 
-{{<youtube id="Yg2SLN-thK4">}}
+```
+ask one-of tortugas [ show obtener-fenotipo ]
+```
 
-{{<hint warning>}}**Explora el modelo**
+Un ejemplo de salida sería:
 
-¿Qué pasa cuando aumentas el tamaño de la perturbación? Pon el parámetro `numero-de-carros` en 18 y pon que la posicion y velocidad inicial sean homogeneas. Aumenta el tamaño de la perturbación dando click muchas veces seguidas en el botón `perturbación`. ¿Para qué cantidad de autos el disturbio logra desaparecer?
+```
+["DistBordeDer" "GirarIzq" -0.8420470580627342] ["Aleatorio" "OrientarseAlimento" 3.537848247891339] ["DistBordeArr" "GirarDer" 1.5810106483579087]]
+```
 
-{{</hint>}}
+Que nos diría que en la red las entradas `DistBordeDer` y `DisBordeArr` están conectadas a la salida `GirarIzq` y `GirarDer` respectivamente (y el tercer valor de cada sublista es el peso de ese enlace).
 
-## Tráfico fantasma y propiedades emergentes
+## Dinámica generacional y reproducción
 
-{{<youtube id="dikGpjcegRU">}}
+{{<youtube id="oB7KjuuYzwI">}}
 
-{{<hint info>}}**Material complementario**
+## Mutaciones
 
-Si les interesa saber más sobre el tráfico fantasma pueden consultar [el artículo donde se describe el experimento](https://iopscience.iop.org/article/10.1088/1367-2630/15/10/103034/pdf) y los siguientes videos:
-- [Video: ¿Cómo se forman los atascos de tráfico en nuestras carreteras? Tu eres el culpable](https://www.youtube.com/watch?v=z2_1sfbHbgY)
-- [Video: Why the @#$% is there so much traffic?](https://www.youtube.com/watch?v=TNokBgtSUvQ&themeRefresh=1)
-- [Video: The Simple Solution to Traffic](https://www.youtube.com/watch?v=iHzzSao6ypE)
+{{<youtube id="S5s6itdedpQ">}}
 
-{{</hint>}}
+## Extensión: Cambiar posición inicial
+
+{{<youtube id="ZeQt2F_HsDo">}}
+
+## Extensión: Agregar un depredador
+
+{{<youtube id="zMrFoyDMoL8">}}
+
+## Crea una animación de tu simulación
+
+Para crear un gif y poder ver con más detalle el movimiento de tu simulación. Lo que necesitamos es que en cada iteración del modelo se guarde una imagen con un nombre distinto. Por ejemplo, para la iteración 0 queremos una imagen del mundo con el nombre `img-0000.png`, para la iteración 1 queremos una imagen con el nombre `img-0001.png`, para la iteración 2 una imagen con el nombre `img-0002.png`, etc. Para ello vamos a usar los siguientes comandos:
+
+- [`export-view`](https://ccl.northwestern.edu/netlogo/docs/dictionary.html#export-cmds): que recibe un string de un nombre de archivo y exporta el mundo en un archivo png.
+- [`word`](https://ccl.northwestern.edu/netlogo/docs/dictionary.html#word): que recibe múltipes valores que concatena en un solo string.
+- [`ticks`](https://ccl.northwestern.edu/netlogo/docs/dictionary.html#ticks): que reporta el número de ticks que llevamos.
+
+Adicionalmente para generar los nombres de archivo usaremos el comando `agregar-ceros`. Este comando recibe un número en string y el número de ceros que se quiera agregar a la izquierda y retorna un string de la longitud deseada.
+
+```
+to-report agregar-ceros [ cadena numero-ceros ]
+  if length cadena >= numero-ceros [
+    report cadena
+  ]
+  report agregar-ceros ( insert-item 0 cadena "0" ) numero-ceros
+end
+```
+
+Juntando todos esos elementos podemos construir el siguiente comando:
+
+```
+export-view ( word ("img-") (agregar-ceros (word ticks "") 4) (".png"))
+ 
+```
+
+Que, cuando `ticks` es igual a 0, exporta una imagen con el nombre `img-0000.png` en la carpeta donde esté guardado tu archivo del modelo (`.nlogo`). 
+
+Para hacer una captura de la simulación en cada iteracción agrega tu comando antes de cada tick. Por ejemplo en este modelo coloca el comando dentro del procedimiento go:
+
+```
+to go
+  clear-drawing
+  if count depredadores != num-depredador [ crear-depredador ]
+  crear-alimento
+  repeat duracion-generacion [
+    ifelse trazo? [ ask tortugas [ pendown ]] [ask turtles [penup]]
+    ask tortugas [ moverse ]
+    ask tortugas [ comer ]
+    ask depredadores [ moverse-dep ]
+    ask depredadores [ comer-dep ]
+
+    ;;; AQUÍ AGREGAMOS NUESTRO COMANDO PARA EXPORTAR LA IMAGEN
+    export-view ( word ("img/depredador/img-") (agregar-ceros (word ticks "") 4) (".png"))
+    tick
+  ]
+  ask tortugas [ morirse ]
+  ask tortugas [ reproducirse ]
+  ask tortugas with [ energia > 0 ] [die ]
+
+  set generacion generacion + 1
+
+end
+```
+
+Listo con esto ya tenemos nuestras imágenes en nuestra computadora. Ahora puedes construir tu gif usando alguna aplicación web como [EZGIF.COM](https://ezgif.com/maker). Si tienes [Imagemagick](https://imagemagick.org/script/convert.php) puedes ejecutar el siguiente comando en tu consola para hacer el gif:
+
+```
+convert -delay 5 -loop 0 *.png mi-animacion.gif
+```
