@@ -1,7 +1,7 @@
 +++
 title = 'Práctica 7'
 date = 2024-10-18T10:43:49-06:00
-weight = 92
+weight = 82
 +++
 
 # Práctica 7: Modelo de tráfico
@@ -14,7 +14,7 @@ weight = 92
 
 ## Introducción
 
-¿Cómo es que se forma el tráfico? En esta práctica vamos a construir y explorar un modelo sobre la formación de tráfico. En este modelo vamos a explorar que pasa cuando ponemos a varios carros a moverse en una dimensión permitiendo que cambien su aceleración para evitar chocar. En este sencillo fenómeno encontraremos algunas propiedades características de los sistemas complejos como las propiedades emergentes y los puntos críticos.
+¿Cómo es que se forma el tráfico? En esta práctica vamos a construir y explorar un modelo muy simple sobre la formación de tráfico. 
 
 ## Presentación y definición del modelo
 
@@ -58,5 +58,10 @@ Si les interesa saber más sobre el tráfico fantasma pueden consultar [el artí
 - [Video: ¿Cómo se forman los atascos de tráfico en nuestras carreteras? Tu eres el culpable](https://www.youtube.com/watch?v=z2_1sfbHbgY)
 - [Video: Why the @#$% is there so much traffic?](https://www.youtube.com/watch?v=TNokBgtSUvQ&themeRefresh=1)
 - [Video: The Simple Solution to Traffic](https://www.youtube.com/watch?v=iHzzSao6ypE)
+
+Además pueden revisar los siguientes modelos en **librería de modelos de NetLogo**:
+- Traffic 2 Lanes
+- Traffic Grid
+- Traffic Grid Goal
 
 {{</hint>}}

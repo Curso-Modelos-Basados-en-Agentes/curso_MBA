@@ -7,26 +7,26 @@ weight = 83
 # Actividad 8
 
 {{<hint info>}}
-**Fecha de entrega:** 26/10/2024  
+**Fecha de entrega:** 13/04/2026  
 **Forma de entrega:** repositorio de github
 {{</hint>}}
 
-Esta actividad destá asociada a la Práctica 7. 
+Esta actividad está asociada a la Práctica 7. 
 
 ## Validación del modelo
 
-La siguiente figura muestra los resultados que obtuvieron [Tadaki et al. (2013)](https://iopscience.iop.org/article/10.1088/1367-2630/15/10/103034/pdf) en un experimento empírico. Esta gráfica muestra la relación entre la densidad de autos ({{<katex>}}\rho{{</katex>}}, media en número de autos por kilómetro) y el flujo ({{<katex>}}q{{</katex>}}, medido como la cantidad de autos que pasan por un punto durante un intervalo de 5 minutos). La gráfica muestra que cuando la densidad de autos es baja entonces el flujo aumenta de manera lineal. Sin embargo, cuando se alcanza un valor crítico de autos el flujo baja. Para tener certeza sobre que nuestro modelo es una buena representación de este fenómeno deberíamos poder reproducir este resultado.
+La siguiente figura muestra los resultados que obtuvieron [Tadaki et al. (2013)](https://iopscience.iop.org/article/10.1088/1367-2630/15/10/103034/pdf) en un experimento empírico. Esta gráfica muestra la relación entre la densidad de autos ({{<katex>}}\rho{{</katex>}}, media en número de autos por kilómetro) y el flujo ({{<katex>}}q{{</katex>}}, medido como la cantidad de autos que pasan por un punto durante un intervalo de 5 minutos). La gráfica muestra que cuando la densidad de autos es baja entonces el flujo aumenta de manera lineal. Sin embargo, cuando se alcanza un valor crítico de autos el flujo disminuye drásticamente. Para tener certeza sobre que nuestro modelo es una buena representación de este fenómeno deberíamos poder reproducir este resultado.
 
 ![Figura 1 de artículo de Tadaki et al. (2013)](/curso_MBA/img/fig_1_tadaki_et_al_2013.png)
 
 El objetivo de esta actividad es que reproduzcas este resutlado con datos simulados para validar nuestro modelo. Para ello debes hacer lo siguiente cosas:
 1. generar una métrica del flujo de autos,
 2. diseñar una serie de experimentos para obtener tus datos, y
-3. procesar y analizar tus datos para replicar la figura.
+3. procesar y analizar tus datos para obtener una gráfica similar.
 
 {{<hint info>}}**Tip: ¿Cómo medir el flujo?**  
 
-El flujo mide cuantos autos pasan por un punto en un intervalo de tiempo. En términos de nuestro modelo la métrica debería medir cuantos autos pasan por una coordeada x dada durante un intervalo dado de tiempo (e.g., en 50 ticks). Aquí te dejo algunos tips para que generes una métrica del flujo:
+El flujo mide cuantos autos pasan por un punto en un intervalo de tiempo. En términos de nuestro modelo la métrica debería medir cuantos autos pasan por una coordenada x dada durante un intervalo dado de tiempo (e.g., en 50 ticks). Aquí te dejo algunos tips para que generes una métrica del flujo:
 - Puedes utilizar una variable global (a la cual todos los agentes pueden tener acceso y modificar) que vaya registrando el flujo.
 - Tu métrica de flujo puede ser un contador que se vaya reiniciando cada intervalo de tiempo.
 - Para saber si un auto paso por el "sensor" puedes revisar su posición antes y después de avanzar.
@@ -46,9 +46,10 @@ Para validar tu modelo debes diseñar experimentos. Aquí te dejo algunos tips:
 En tu repositorio crea una carpeta que se llame `actividad_07`. En esta carpeta debe incluir:
 
 1. la imagen `validacion.png` en la cual reproduzcas con datos simulados la figura 1 de Tadaki et al. (2013).
-2. el script `validacion.R` o `validacion.py` con el que se crea tu imagen.
-3. el archivo `trafico_fantasma.nlogo` con tu de la práctica en el cual hayas implementado una manera de medir el flujo de autos y donde hayas creado tu experimento para la validación.
-4. opcionalmente incluye los datos de tu experimento con los que creaste tu imagen.
+2. el archivo `validacion.md` en el que describas brevemente tu imagen y discutas las preguntas: ¿qué tanto se parecen las simulaciones al patrón empírico? ¿qué se le podría cambiar al modelo para obtener resultados que sean más similares a los datos empíricos?
+3. el script `validacion.R` o `validacion.py` con el que se crea tu imagen.
+4. el archivo `trafico_fantasma.nlogo` con tu de la práctica en el cual hayas implementado una manera de medir el flujo de autos y donde hayas creado tu experimento para la validación.
+5. opcionalmente incluye los datos de tu experimento con los que creaste tu imagen.
 
 Recuerda que para registrar tus cambios en el repositiorio de git y subirlo a github debes hacer los siguientes comandos desde la carpeta de tu repositorio
 
