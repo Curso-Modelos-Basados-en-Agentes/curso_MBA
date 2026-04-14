@@ -7,7 +7,7 @@ weight = 102
 # Actividad 8
  
 {{<hint info>}}
-**Fecha de entrega:** 5/11/2024  
+**Fecha de entrega:** 20/04/2024  
 **Forma de entrega:** repositorio de github
 {{</hint>}}
 
@@ -27,7 +27,9 @@ Además debes crear un giff de tu simulación como se explica en la última part
 
 ## Opción 2: Diseña un algoritmo de búsqueda y compara su desempeño con respecto al evolucionado
 
-Los algoritmos genéticos a veces pueden generar soluciones poco intuitivas que pueden ser más eficientes que las diseñadas por nosotros. El objetivo de esta segunda opción de actividad es que tu diseñes una estrategia que sigan todas las tortugas para alimentarse y sobrevivir. Por ejemplo, puedes ordenarle a las torutgas que camien de manera aleatoria y si ven comida se dijan hacia ella y si ven un depredador se alejen de él. ¿Qué tan eficiente crees que sea esta estrategia? 
+Los algoritmos genéticos a veces pueden generar soluciones poco intuitivas que pueden ser más eficientes que las diseñadas por nosotros. El objetivo de esta segunda opción de actividad es que tu diseñes una estrategia que sigan todas las tortugas para alimentarse y sobrevivir. 
+
+<!-- Por ejemplo, puedes ordenarle a las torutgas que camien de manera aleatoria y si ven comida se dijan hacia ella y si ven un depredador se alejen de él. ¿Qué tan eficiente crees que sea esta estrategia?  -->
 
 Modifica el modelo para que tu puedas elegir si ejecuta las estrategias buscadas por el algoritmo genético o la estrategia que tu diseñes e implementes. Compara el desempeño de tu estrategia y las que encuentre el algoritmo genético (deja que evolucione por suficiente tiempo, al menos unas 50 iteracciones). Recuerda que debes compararlas con las mismas condiciones. Algunas formas en cómo puedes comparar el desempeño de una y otra estrategia es viendo cuanta energia obtienen (su adecución) o viendo cuanto alimento del total es consumido. En la pestaña de Info describe brevemente tu algoritmo y discute cómo fue su desempeño en comparación con uno que obtengas después de correr tu algoritmo genético por varias generaciones.
 

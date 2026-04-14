@@ -13,7 +13,7 @@ weight = 101
 
 ## Introducción
 
-En esta práctica vamos a evolucionar a una población de tortugas usando un algoritmo genético y redes neuronales. Primero se explican brevemente los fundamentos de la evolución biológica, los algoritmos genéticos y las redes neuronales. Y luego se implementa el modelo explorando 3 condiciones distintas.
+En esta práctica construimos un modelo de [Neuroevolución](https://en.wikipedia.org/wiki/Neuroevolution). Es decir, vamos a evolucionar a una población de redes neuronales con un algoritmo genético. Primero se explican brevemente los fundamentos de la evolución biológica, los algoritmos genéticos y las redes neuronales. Y luego se implementa el modelo explorando 3 condiciones distintas.
 
 {{<hint info>}}
 Esta práctica esta basada en modelos como los siguientes:
