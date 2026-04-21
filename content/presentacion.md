@@ -88,24 +88,21 @@ Se utilizará la siguiente escala de calificaciones:
 |1| 04/02| Presentación del curso|
 |2| 09/02| Discusión: Science and Complexity <br>Teoría: Primera aproximación a la MBA <br> Práctica: Introducción a NetLogo|
 |2| 11/02| Laboratorio: Turtle graphics |
-|3| 16/02| Discusión: <br> Teoría: Introducción a los sistemas complejos <br> Práctica: Modelo de segregación de Schelling |
-|3| 18/02| Laboratorio: Modelo presa depredador |
-|4| 23/02| Discusión: <br> Teoría: Modelación basada en agentes <br> Práctica: Sincronización de luciérnagas|
-|4| 25/02| Laboratorio: Patrones biológicos|
-|5| 02/03| Discusión: Mathematical games <br> Teoría: Autómatas celulares <br> Práctica: Autómatas celulares|
-|5| 04/03| Laboratorio: Modelo de incendios |
-|6| 09/03| Discusión: <br> Práctica: Teoría evolutiva de juegos|
-|6| 11/03| Laboratorio: Modelo epidemias |
-|7| 18/03| Laboratorio: Simple economy <br> Práctica: Modelo El Farol|
+|3| 16/02| Discusión: What is complexity? <br> Teoría: Introducción a los sistemas complejos <br> Práctica: Segregación de Schelling |
+|3| 18/02| Laboratorio: Modelo presa depredador (parte 1) |
+|4| 23/02| Discusión: Self-organizacion in biological systems <br> Teoría: Modelación basada en agentes <br> Práctica: Sincronización luciérnagas|
+|4| 25/02| Laboratorio: Modelo presa depredador (parte 2) |
+|5| 02/03| Discusión: Mathematical games <br> Teoría: Autómatas celulares <br> Práctica: Autómatas celulares |
+|5| 04/03| Laboratorio: Modelo de incendios (parte 1) |
+|6| 09/03| Discusión: Evolutionary games and spatial Chaos <br> Práctica: Teoría evolutiva de juegos|
+|6| 11/03| Laboratorio: Modelo de incendios (parte 2) |
+|7| 18/03| Laboratorio: Modelo epidemias (parte 1) <br> Práctica: Ciclos intransitivos |
 |8| 23/03| Discusión: How digital media <br> Práctica: Polarización de redes sociales|
 |8| 25/03| Asesoría: Explicación proyecto final |
-|9| 06/04| Discusión: <br> Teoría: Proceso de modelación <br> Práctica: Modelo de tráfico |
-|9| 08/04| Laboratorio: Explorar otros modelos de movilidad |
-|10| 13/04| Discusión: <br> Práctica: Modelo de forrajeo |
-|10| 15/04| Laboratorio: Modelo sistema biológico |
-|11| 20/04| Discución: Algoritmos genéticos <br> Práctica: Algoritmos genéticos|
-|11| 22/04| Laboratorio: Algoritmos genéticos |
-|12| 27/04| Práctica: Modelos basados en agentes en python (opcional) |
+|9| 06/04| Discusión: Designing and developing an agent-based model <br> Teoría: Proceso de modelación <br> Práctica: Modelo de tráfico |
+|9| 08/04| Laboratorio: Modelo epidemias (parte 2) |
+|10| 13/04| Discusión: Genetic Algorithms<br> Práctica: Algoritmos genéticos|
+|10| 15/04| Laboratorio: Modelo epidemias (parte 3) |
 |12| 29/04| Asesoría: Proyecto final |
 |13| 06/05| Asesoría: Proyecto final |
 |14| 13/05| Asesoría: Proyecto final |
